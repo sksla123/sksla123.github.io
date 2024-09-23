@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: 학부 연구생
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
