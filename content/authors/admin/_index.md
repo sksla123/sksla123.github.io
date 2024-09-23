@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: 박준용
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Park Jun Yong
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: 준 용
+last_name: 박
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🤔
 
 # Is this the primary user of the site?
 superuser: true
