@@ -102,7 +102,7 @@ awards:
     url: '/uploads/2023DCS_student_article.pdf'
     date: '2023-11-10'
     awarder: 한국디지털콘텐츠학회
-    icon: "custom/DCS_icon"
+    icon: '/assets/media/icons/custom/DCS_icon.svg'
     summary: |
       BM25 기반의 엘라스틱 서치와 DeBERTa를 Two-Stage로 활용해 검색 성능을 더욱 끌어올리는 방안을 제시하였다. 기존의 질의 및 상품 문서 데이터를 분석하여 필요한 전처리 기법을 고안하였으며, Pseudo Relevance Feedback 기법을 사용해 사용자의 의도에 더욱 가깝게 검색할 수 있도록 제시했다.
 ---
