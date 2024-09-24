@@ -102,7 +102,7 @@ awards:
     url: https://dcs.or.kr/board/presentation/article/198809
     date: '2023-11-10'
     awarder: 한국디지털콘텐츠학회
-    icon: custom/DCS_icon
+    icon: "custom/DCS_icon"
     summary: |
        온라인 상품 검색은 질의가 추상적인 유형과 구체적인 상품을 요구하는 유형이 있어 사용자
       의 요구에 적합한 결과를 제시하기가 일반 정보검색에 비해 어려운 점이 있다. 또한 질의에 오타
@@ -113,9 +113,9 @@ awards:
       성정보를 특별 정보로 처리함으로써 학습 효과를 높이도록 하였다. 국제정보검색 평가대회인 
       TREC2023 상품 검색 트랙에서 제공한 데이터를 활용한 평가에서 제안한 방법이 정보검색 기본 
       모델(BM25)에 비해 ndcg 기준 12.4% 성능이 향상됨을 확인하였다.
-    button:
-      text: 'Download article'
-      url: 'uploads/2023DCS_student_article.pdf'
+    # button:
+    #   text: 'Download article'
+    #   url: 'uploads/2023DCS_student_article.pdf'
 ---
 
 ## About Me
