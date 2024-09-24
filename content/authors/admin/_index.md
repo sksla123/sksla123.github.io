@@ -81,7 +81,7 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: 책 읽기
-        description: |
+        description: |2-
           과학 분야의 책을 좋아하며, 최근엔 인간의 정신과 심리학과 관련된 책을 보고 있다.
           수 많은 별들과 이 우주에 함께 살아가는 우리에 대한 이야기를 담은 칼 세이건의 코스모스라는 책을 좋아한다.
         percent: 90
@@ -102,7 +102,7 @@ awards:
     url: https://dcs.or.kr/board/presentation/article/198809
     date: '2023-11-10'
     awarder: 한국디지털콘텐츠학회
-#     icon: "custom/DCS_icon"
+    icon: "custom/DCS_icon"
 #     summary: |
 #        온라인 상품 검색은 질의가 추상적인 유형과 구체적인 상품을 요구하는 유형이 있어 사용자
 #       의 요구에 적합한 결과를 제시하기가 일반 정보검색에 비해 어려운 점이 있다. 또한 질의에 오타
