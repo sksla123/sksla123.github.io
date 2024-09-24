@@ -5,6 +5,7 @@ env:
 
 on:
   # Trigger the workflow every time you push to the `main` branch
+  # 모든 브랜치에서 deploy 하도록 변경 (가장 최근에 push 된 branch가 배포됨.)
   push:
     branches: ["*"]
   # Allows you to run this workflow manually from the Actions tab on GitHub.
