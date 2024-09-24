@@ -99,7 +99,7 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: 2023년 한국디지털콘텐츠학회 추계종합학술대회 대학생 논문경진대회
-    url: 'uploads/2023DCS_student_article.pdf'
+    url: '/uploads/2023DCS_student_article.pdf'
     date: '2023-11-10'
     awarder: 한국디지털콘텐츠학회
     icon: "custom/DCS_icon"
