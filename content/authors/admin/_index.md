@@ -81,15 +81,11 @@ skills:
     color_border: '#f0bf23'
     items:
       - name: 책 읽기
-        description: ''
-        percent: 60
+        description: |
+          과학 분야의 책을 좋아하며, 최근엔 심리학과 관련된 책을 보고 있다.
+          수 많은 별들과 이 우주에 함께 살아가는 우리에 대한 이야기를 담은 칼 세이건의 코스모스라는 책을 좋아한다.
+        percent: 90
         icon: book-open
-      - name: ''
-        description: ''
-        percent: 0
-      - name: ''
-        description: ''
-        percent: 0
 
 
 languages:
