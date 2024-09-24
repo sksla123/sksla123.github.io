@@ -98,31 +98,24 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: 2023년 한국디지털콘텐츠학회 추계종합학술대회 대학생 논문경진대회
+    url: https://dcs.or.kr/board/presentation/article/198809
+    date: '2023-11-10'
+    awarder: 한국디지털콘텐츠학회
+    icon: DCS_icon
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+       온라인 상품 검색은 질의가 추상적인 유형과 구체적인 상품을 요구하는 유형이 있어 사용자
+      의 요구에 적합한 결과를 제시하기가 일반 정보검색에 비해 어려운 점이 있다. 또한 질의에 오타
+      와 다국어, 상품코드를 포함하고 있어 이를 다뤄야 하는 문제를 포함하고 있다. 본 연구에서는 
+      질의 유형을 분석하는 방법을 제안하고, 그 분석에 따라 상품 문서 결과에 대한 딥러닝 기반 재
+      순위화 적용 여부를 판단하는 방법을 제안한다. 최근 우수한 성능을 보이는 딥러닝 모델 
+      DeBERTa 을 이용하여 질의와 적합 문서에 대한 학습을 통해서 재순위화를 수행한다. 상품의 속
+      성정보를 특별 정보로 처리함으로써 학습 효과를 높이도록 하였다. 국제정보검색 평가대회인 
+      TREC2023 상품 검색 트랙에서 제공한 데이터를 활용한 평가에서 제안한 방법이 정보검색 기본 
+      모델(BM25)에 비해 ndcg 기준 12.4% 성능이 향상됨을 확인하였다.
+    button:
+      text: 'Download article'
+      url: uploads/2023DCS_student_article.pdf
 ---
 
 ## About Me
