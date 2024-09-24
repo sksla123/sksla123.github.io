@@ -13,13 +13,13 @@
   translation: 맨 위로
 
 - id: home
-  translation: 홈으로
+  translation: Home
 
 - id: close
-  translation: 닫기
+  translation: Close
 
 - id: languages
-  translation: 언어 변경
+  translation: Languages
 
 # General
 
@@ -39,21 +39,21 @@
   translation: '그림 %d:'
 
 - id: edit_page
-  translation: 현재 페이지 수정
+  translation: Edit this page
 
 # Themes
 
 - id: theme_selector
-  translation: 테마 선택
+  translation: Display preferences
 
 - id: theme_light
-  translation: 낮 테마
+  translation: Light
 
 - id: theme_dark
-  translation: 밤 테마
+  translation: Dark
 
 - id: theme_auto
-  translation: 추천 테마(자동 설정)
+  translation: Automatic
 
 # Buttons
 
@@ -91,7 +91,7 @@
   translation: 복사
 
 - id: btn_copied
-  translation: 복사됨!
+  translation: Copied
 
 - id: btn_download
   translation: 다운로드
@@ -254,7 +254,7 @@
   translation: 이 사이트는 최적화된 사용 경험을 제공하기 위해 쿠키를 사용합니다.
 
 - id: cookie_dismiss
-  translation: 쿠키 해제
+  translation: 알겠어!
 
 - id: cookie_learn
   translation: 더 알아보기
@@ -262,4 +262,4 @@
 # Published with
 
 - id: published_with
-  translation: {hugoblox}에 의해 제공됩니다. 무료로 제공되는 {repo_link}오픈 소스{/repo_link} 웹 사이트 제작 도구는 웹 개발자에게 힘을 주기 위해 만들어졌습니다.
+  translation: Published with {hugoblox} — the free, {repo_link}open source{/repo_link} website builder that empowers creators.
