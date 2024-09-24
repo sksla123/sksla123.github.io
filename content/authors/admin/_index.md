@@ -113,9 +113,9 @@ awards:
       성정보를 특별 정보로 처리함으로써 학습 효과를 높이도록 하였다. 국제정보검색 평가대회인 
       TREC2023 상품 검색 트랙에서 제공한 데이터를 활용한 평가에서 제안한 방법이 정보검색 기본 
       모델(BM25)에 비해 ndcg 기준 12.4% 성능이 향상됨을 확인하였다.
-    button:
-      text: 'Download article'
-      url: uploads/2023DCS_student_article.pdf
+#    button:
+#      text: 'Download article'
+#      url: 'uploads/2023DCS_student_article.pdf'
 ---
 
 ## About Me
