@@ -66,15 +66,15 @@ skills:
     items:
       - name: 파이썬
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
       - name: 데이터 과학
         description: ''
-        percent: 100
+        percent: 80
         icon: chart-bar
       - name: SQL
         description: ''
-        percent: 40
+        percent: 80
         icon: circle-stack
   - name: 취미
     color: '#eeac02'
@@ -84,6 +84,13 @@ skills:
         description: ''
         percent: 60
         icon: book-open
+      - name: ''
+        description: ''
+        percent: 0
+      - name: ''
+        description: ''
+        percent: 0
+
 
 languages:
   - name: 한국어
