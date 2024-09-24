@@ -99,15 +99,12 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: 2023년 한국디지털콘텐츠학회 추계종합학술대회 대학생 논문경진대회
-    url: https://dcs.or.kr/board/presentation/article/198809
+    url: 'uploads/2023DCS_student_article.pdf'
     date: '2023-11-10'
     awarder: 한국디지털콘텐츠학회
     icon: "custom/DCS_icon"
     summary: |
-      온라인 상품 검색은 질의가 추상적인 유형과 구체적인 상품을 요구하는 유형이 있어 사용자의 요구에 적합한 결과를 제시하기가 일반 정보검색에 비해 어려운 점이 있다. 또한 질의에 오타와 다국어, 상품코드를 포함하고 있어 이를 다뤄야 하는 문제를 포함하고 있다. 본 연구에서는 질의유형을 분석하는 방법을 제안하고, 그 분석에 따라 상품 문서 결과에 대한 딥러닝 기반 재순위화 적용 여부를 판단하는 방법을 제안한다. 최근 우수한 성능을 보이는 딥러닝 모델 DeBERTa를 이용하여 질의와 적합 문서에 대한 학습을 통해서 재순위화를 수행한다. 상품의 속성정보를 특별 정보로 처리함으로써 학습 효과를 높이도록 하였다. 국제정보검색 평가대회인 TREC2023 상품 검색 트랙에서 제공한 데이터를 활용한 평가에서 제안한 방법이 정보검색 기본 모델(BM25)에 비해 ndcg 기준 12.4% 성능이 향상됨을 확인하였다.
-    button:
-      text: 'Download article'
-      url: 'uploads/2023DCS_student_article.pdf'
+      BM25 기반의 엘라스틱 서치와 DeBERTa를 Two-Stage로 활용해 검색 성능을 더욱 끌어올리는 방안을 제시하였다. 기존의 질의 및 상품 문서 데이터를 분석하여 필요한 전처리 기법을 고안하였으며, Pseudo Relevance Feedback 기법을 사용해 사용자의 의도에 더욱 가깝게 검색할 수 있도록 제시했다.
 ---
 
 ## About Me
