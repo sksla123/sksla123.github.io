@@ -37,9 +37,9 @@ profiles:
     url: https://github.com/sksla123
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Artificial Intelligence (AI)
+  - Natural Language Processing (NLP)
+  - Information Retrieval (IR)
 
 education:
   - area: PhD Artificial Intelligence
