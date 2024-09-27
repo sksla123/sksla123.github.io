@@ -109,7 +109,7 @@ awards:
     url: 'https://www.notion.so/TREC-2024-0e456ef7f1d242b99e3d68c8fe1c51c7'
     date: '2024-8-11'
     awarder: National Institute of Standards and Technology (NIST)
-    icon: custom/TREC
+    icon: 'custom/TREC'
     summary: |
       TREC2024 Product Search Track 부문에서는 기존의 검색 엔진 보다 더 뛰어난 효율을 낼 수 있는 새로운 모델을 찾는 것을 목표로 했다. 우리는 Sparse Retrieval과 Dense Retrieval의 결합을 통해 더 높은 성능을 낼 수 있는 방법을 찾는 것을 목표로 하여 제출하였다.
   
