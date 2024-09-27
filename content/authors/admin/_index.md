@@ -103,6 +103,7 @@ awards:
     date: '2023-11-10'
     awarder: 한국디지털콘텐츠학회
     icon: DCS_icon
+    icon_pack: custom
     summary: |
       BM25 기반의 엘라스틱 서치와 DeBERTa를 Two-Stage로 활용해 검색 성능을 더욱 끌어올리는 방안을 제시하였다. 기존의 질의 및 상품 문서 데이터를 분석하여 필요한 전처리 기법을 고안하였으며, Pseudo Relevance Feedback 기법을 사용해 사용자의 의도에 더욱 가깝게 검색할 수 있도록 제시했다.
   - title: TREC2024 Product Search Track 참가
@@ -110,6 +111,7 @@ awards:
     date: '2024-08-11'
     awarder: National Institute of Standards and Technology (NIST)
     icon: TREC
+    icon_pack: custom
     summary: |
       TREC2024 Product Search Track 부문에서는 기존의 검색 엔진 보다 더 뛰어난 효율을 낼 수 있는 새로운 모델을 찾는 것을 목표로 했다. 우리는 Sparse Retrieval과 Dense Retrieval의 결합을 통해 더 높은 성능을 낼 수 있는 방법을 찾는 것을 목표로 하여 제출하였다.
   
