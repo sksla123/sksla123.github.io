@@ -42,11 +42,36 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: 
-    slides:
-      theme: white # Reveal JS theme name
-      highlight_style: github # Highlight JS theme name
-      url_slides: '/uploads/hello.ppt'
+  - block: slider
+    content:
+      slides:
+      - title: <span style="font-size:70%">Recruit</span>
+        content: <span style="font-size:70%">Interested in MacsLAB?</span>
+        align: center
+        background:
+          image:
+            filename: recruitment.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+        link:
+          icon: user
+          icon_pack: fas
+          text: <span style="font-size:60%">Join Us</span>
+          text-color: '#000'
+          url: contact
+      - title: <span style="font-size:70%">AI</span>
+        content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
+        align: center
+        background:
+          image:
+            filename: Ai.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
   - block: collection
     id: papers
     content:
