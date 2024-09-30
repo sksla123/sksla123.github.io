@@ -41,18 +41,22 @@ sections:
         
         Please reach out to collaborate 😃
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="..." alt="First slide">
+              <img class="d-block w-100" src="https://sksla123.github.io/media/stacked-peaks.svg" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Second slide">
+              <img class="d-block w-100" src="https://sksla123.github.io/media/stacked-peaks.svg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Third slide">
+              <img class="d-block w-100" src="https://sksla123.github.io/media/stacked-peaks.svg" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
