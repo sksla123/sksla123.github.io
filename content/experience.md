@@ -1,5 +1,5 @@
 ---
-title: 'Experience'
+title: '나의 경험'
 date: 2023-10-24
 type: landing
 
