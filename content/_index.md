@@ -42,34 +42,34 @@ sections:
         Please reach out to collaborate 😃
 
         <div class=".carousel-container">
-        <div class="carousel">
-          <div class="slides">
-            <img
-              src="https://picsum.photos/1280/720?random=1"
-              alt="slide image"
-              class="slide"
-            />
-            <img
-              src="https://picsum.photos/1280/720?random=2"
-              alt="slide image"
-              class="slide"
-            />
-            <img
-              src="https://picsum.photos/1280/720?random=3"
-              alt="slide image"
-              class="slide"
-            />
-            <img
-              src="https://picsum.photos/1280/720?random=4"
-              alt="slide image"
-              class="slide"
-            />
+          <div class="carousel">
+            <div class="slides">
+              <img
+                src="https://picsum.photos/1280/720?random=1"
+                alt="slide image"
+                class="slide"
+              />
+              <img
+                src="https://picsum.photos/1280/720?random=2"
+                alt="slide image"
+                class="slide"
+              />
+              <img
+                src="https://picsum.photos/1280/720?random=3"
+                alt="slide image"
+                class="slide"
+              />
+              <img
+                src="https://picsum.photos/1280/720?random=4"
+                alt="slide image"
+                class="slide"
+              />
+            </div>
+            <div class="controls">
+              <div class="control prev-slide">&#9668;</div>
+              <div class="control next-slide">&#9658;</div>
+            </div>
           </div>
-          <div class="controls">
-            <div class="control prev-slide">&#9668;</div>
-            <div class="control next-slide">&#9658;</div>
-          </div>
-        </div>
         </div>
 
         <script>
@@ -119,7 +119,7 @@ sections:
           }
 
           .carousel {
-            width: 80vw;
+            width: 100%;
             height: 250px;
             border-radius: 3px;
             overflow: hidden;
