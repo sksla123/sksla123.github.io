@@ -42,10 +42,11 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block:
+  - block: 
     slides:
       theme: white # Reveal JS theme name
       highlight_style: github # Highlight JS theme name
+      url_slides: '/uploads/hello.ppt'
   - block: collection
     id: papers
     content:
