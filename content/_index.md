@@ -154,7 +154,7 @@ sections:
             opacity: 0;
             display: flex;
             position: absolute;
-            top: 1%;
+            top: 45%;
             left: 0;
             justify-content: space-between;
             width: 100%;
