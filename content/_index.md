@@ -41,98 +41,69 @@ sections:
         
         Please reach out to collaborate 😃
 
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-        />
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+          const delay = 3000; //ms
 
-        <div class="swiper swiper-material swiper-initialized swiper-horizontal swiper-watch-progress" style="--swiper-material-slide-size: 392px;">
-          <div class="swiper-wrapper" style="cursor: grab;">
-            <div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" style="width: 392px; margin-right: 16px; --swiper-material-scale: 1;">
-              <!-- Wrap each slide content with "swiper-material-wrapper" and "swiper-material-content" elements -->
-              <div class="swiper-material-wrapper" style="width: 100%; transform: translate3d(0px, 0px, 0px);">
-                <div class="swiper-material-content">
-                  <!-- Use data-swiper-material-scale to add scale effect on required elements -->
-                  <img class="demo-material-image" data-swiper-material-scale="1.25" src="https://sksla123.github.io/media/stacked-peaks.svg" style="transform: scale(1);">
-                  <!-- Use swiper-material-animate-opacity class to add opacity animation on required elements -->
-                  <span class="demo-material-label swiper-material-animate-opacity" style="opacity: 1;">Slide 1</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-next" style="width: 392px; margin-right: 16px; --swiper-material-scale: 0.6295918367346939;">
-              <div class="swiper-material-wrapper" style="width: 62.9592%; transform: translate3d(0px, 0px, 0px);">
-                <div class="swiper-material-content">
-                  <img class="demo-material-image" data-swiper-material-scale="1.25" src="https://sksla123.github.io/media/stacked-peaks.svg" style="transform: scale(1.0926);">
-                  <span class="demo-material-label swiper-material-animate-opacity" style="opacity: 1.15596e-05;">Slide 2</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style="width: 392px; margin-right: 16px; --swiper-material-scale: 0.32959183673469383;">
-              <div class="swiper-material-wrapper" style="width: 32.9592%; transform: translate3d(-145.2px, 0px, 0px);">
-                <div class="swiper-material-content">
-                  <img class="demo-material-image" data-swiper-material-scale="1.25" src="https://sksla123.github.io/media/stacked-peaks.svg" style="transform: scale(1.1676);">
-                  <span class="demo-material-label swiper-material-animate-opacity" style="opacity: 0;">Slide
-                    3</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style="width: 392px; margin-right: 16px; --swiper-material-scale: 0.00001;">
-              <div class="swiper-material-wrapper" style="width: 0.001%; transform: translate3d(-424px, 0px, 0px);">
-                <div class="swiper-material-content">
-                  <img class="demo-material-image" data-swiper-material-scale="1.25" src="https://sksla123.github.io/media/stacked-peaks.svg" style="transform: scale(1.25);">
-                  <span class="demo-material-label swiper-material-animate-opacity" style="opacity: 0;">Slide 4</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style="width: 392px; margin-right: 16px; --swiper-material-scale: 0.00001;">
-              <div class="swiper-material-wrapper" style="width: 0.001%; transform: translate3d(-832px, 0px, 0px);">
-                <div class="swiper-material-content">
-                  <img class="demo-material-image" data-swiper-material-scale="1.25" src="https://sksla123.github.io/media/stacked-peaks.svg" style="transform: scale(1.25);">
-                  <span class="demo-material-label swiper-material-animate-opacity" style="opacity: 0;">Slide 5</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style="width: 392px; margin-right: 16px; --swiper-material-scale: 0.00001;">
-              <div class="swiper-material-wrapper" style="width: 0.001%; transform: translate3d(-1240px, 0px, 0px);">
-                <div class="swiper-material-content">
-                  <img class="demo-material-image" data-swiper-material-scale="1.25" src="https://sksla123.github.io/media/stacked-peaks.svg" style="transform: scale(1.25);">
-                  <span class="demo-material-label swiper-material-animate-opacity" style="opacity: 0;">Slide 6</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style="width: 392px; margin-right: 16px; --swiper-material-scale: 0.00001;">
-              <div class="swiper-material-wrapper" style="width: 0.001%; transform: translate3d(-1648px, 0px, 0px);">
-                <div class="swiper-material-content">
-                  <img class="demo-material-image" data-swiper-material-scale="1.25" src="https://sksla123.github.io/media/stacked-peaks.svg" style="transform: scale(1.25);">
-                  <span class="demo-material-label swiper-material-animate-opacity" style="opacity: 0;">Slide 7</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style="width: 392px; margin-right: 16px; --swiper-material-scale: 0.00001;">
-              <div class="swiper-material-wrapper" style="width: 0.001%; transform: translate3d(-2056px, 0px, 0px);">
-                <div class="swiper-material-content">
-                  <img class="demo-material-image" data-swiper-material-scale="1.25" src="https://sksla123.github.io/media/stacked-peaks.svg" style="transform: scale(1.25);">
-                  <span class="demo-material-label swiper-material-animate-opacity" style="opacity: 0;">Slide 8</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style="width: 392px; margin-right: 16px; --swiper-material-scale: 0.00001;">
-              <div class="swiper-material-wrapper" style="width: 0.001%; transform: translate3d(-2464px, 0px, 0px);">
-                <div class="swiper-material-content">
-                  <img class="demo-material-image" data-swiper-material-scale="1.25" src="https://sksla123.github.io/media/stacked-peaks.svg" style="transform: scale(1.25);">
-                  <span class="demo-material-label swiper-material-animate-opacity" style="opacity: 0;">Slide 9</span>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" style="width: 392px; margin-right: 16px; --swiper-material-scale: 0.00001;">
-              <div class="swiper-material-wrapper" style="width: 0.001%; transform: translate3d(-2872px, 0px, 0px);">
-                <div class="swiper-material-content">
-                  <img class="demo-material-image" data-swiper-material-scale="1.25" src="https://sksla123.github.io/media/stacked-peaks.svg" style="transform: scale(1.25);">
-                  <span class="demo-material-label swiper-material-animate-opacity" style="opacity: 0;">Slide 10</span>
-                </div>
-              </div>
-            </div>
+          const slides = document.querySelector(".slides");
+          const slidesCount = slides.childElementCount;
+          const maxLeft = (slidesCount - 1) * 100 * -1;
+
+          let current = 0;
+
+          function changeSlide(next = true) {
+            if (next) {
+              current += current > maxLeft ? -100 : current * -1;
+            } else {
+              current = current < 0 ? current + 100 : maxLeft;
+            }
+
+            slides.style.left = current + "%";
+          }
+
+          let autoChange = setInterval(changeSlide, delay);
+          const restart = function () {
+            clearInterval(autoChange);
+            autoChange = setInterval(changeSlide, delay);
+          };
+
+          // Controls
+          document.querySelector(".next-slide").addEventListener("click", function () {
+            changeSlide();
+            restart();
+          });
+
+          document.querySelector(".prev-slide").addEventListener("click", function () {
+            changeSlide(false);
+            restart();
+          });
+        </script>
+
+        <div class="carousel">
+          <div class="slides">
+            <img
+              src="https://picsum.photos/1280/720?random=1"
+              alt="slide image"
+              class="slide"
+            />
+            <img
+              src="https://picsum.photos/1280/720?random=2"
+              alt="slide image"
+              class="slide"
+            />
+            <img
+              src="https://picsum.photos/1280/720?random=3"
+              alt="slide image"
+              class="slide"
+            />
+            <img
+              src="https://picsum.photos/1280/720?random=4"
+              alt="slide image"
+              class="slide"
+            />
+          </div>
+          <div class="controls">
+            <div class="control prev-slide">&#9668;</div>
+            <div class="control next-slide">&#9658;</div>
           </div>
         </div>
     design:
