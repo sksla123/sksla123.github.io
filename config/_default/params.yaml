@@ -58,3 +58,8 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+# Slider 덱 추가
+slides:
+  theme: white # Reveal JS 테마 이름
+  highlight_style: github # Highlight JS 테마 이름
