@@ -41,6 +41,37 @@ sections:
         
         Please reach out to collaborate 😃
 
+        <div class=".carousel-container">
+        <div class="carousel">
+          <div class="slides">
+            <img
+              src="https://picsum.photos/1280/720?random=1"
+              alt="slide image"
+              class="slide"
+            />
+            <img
+              src="https://picsum.photos/1280/720?random=2"
+              alt="slide image"
+              class="slide"
+            />
+            <img
+              src="https://picsum.photos/1280/720?random=3"
+              alt="slide image"
+              class="slide"
+            />
+            <img
+              src="https://picsum.photos/1280/720?random=4"
+              alt="slide image"
+              class="slide"
+            />
+          </div>
+          <div class="controls">
+            <div class="control prev-slide">&#9668;</div>
+            <div class="control next-slide">&#9658;</div>
+          </div>
+        </div>
+        </div>
+
         <script>
           const delay = 3000; //ms
 
@@ -78,34 +109,75 @@ sections:
           });
         </script>
 
-        <div class="carousel">
-          <div class="slides">
-            <img
-              src="https://picsum.photos/1280/720?random=1"
-              alt="slide image"
-              class="slide"
-            />
-            <img
-              src="https://picsum.photos/1280/720?random=2"
-              alt="slide image"
-              class="slide"
-            />
-            <img
-              src="https://picsum.photos/1280/720?random=3"
-              alt="slide image"
-              class="slide"
-            />
-            <img
-              src="https://picsum.photos/1280/720?random=4"
-              alt="slide image"
-              class="slide"
-            />
-          </div>
-          <div class="controls">
-            <div class="control prev-slide">&#9668;</div>
-            <div class="control next-slide">&#9658;</div>
-          </div>
-        </div>
+        <style>
+          .carousel-container {
+            background: #3e3e3e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+          }
+
+          .carousel {
+            width: 80vw;
+            height: 250px;
+            border-radius: 3px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 3px 6px rgba(223, 192, 192, 0.2);
+          }
+
+          .slides {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            display: flex;
+            width: 100%;
+            transition: 1s ease-in-out all;
+          }
+          .slides .slide {
+            min-width: 100%;
+            min-height: 250px;
+            height: auto;
+          }
+
+          /* .carousel:hover {
+            opacity: 1;
+          } */
+
+          .carousel:hover .controls {
+            opacity: 1;
+          }
+
+          .carousel .controls {
+            opacity: 0;
+            display: flex;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            justify-content: space-between;
+            width: 100%;
+            z-index: 10;
+            transition: all ease 0.5s;
+          }
+
+          .carousel .control {
+            margin: 0 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.7);
+            opacity: 0.5;
+            transition: ease 0.3s;
+            cursor: pointer;
+          }
+
+        </style>
+
     design:
       columns: '1'
   - block: collection
