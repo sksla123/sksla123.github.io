@@ -107,17 +107,21 @@ awards:
       BM25 기반의 엘라스틱 서치와 DeBERTa를 Two-Stage로 활용해 검색 성능을 더욱 끌어올리는 방안을 제시하였다. 기존의 질의 및 상품 문서 데이터를 분석하여 필요한 전처리 기법을 고안하였으며, Pseudo Relevance Feedback 기법을 사용해 사용자의 의도에 더욱 가깝게 검색할 수 있도록 제시했다.
       <script>
         document.addEventListener("DOMContentLoaded", function() {
-          // 모든 div 요소 중에서 텍스트에 '한국디지털콘텐츠학회'가 포함된 요소 찾기
-          const targetDivs = Array.from(document.querySelectorAll('div'))
-            .filter(div => div.textContent.includes('한국디지털콘텐츠학회'));
-
-          targetDivs.forEach(function(div) {
-            // 해당 div 안에 있는 SVG 요소 찾기
-            const svgElement = div.querySelector('svg');
+          // 모든 요소 중에서 텍스트 '한국디지털콘텐츠학회'가 포함된 요소 추적
+          const targetElements = Array.from(document.querySelectorAll('*'))
+            .filter(el => el.textContent.includes('한국디지털콘텐츠학회'));
+          
+          targetElements.forEach(function(element) {
+            // 가장 가까운 div 부모에서만 SVG 찾기 (가장 가까운 상위 div)
+            const parentDiv = element.closest('div');
             
-            if (svgElement) {
-              // SVG의 크기 강제 적용
-              svgElement.style.width = '100px';
+            if (parentDiv) {
+              const svgElement = parentDiv.querySelector('svg');
+              
+              if (svgElement) {
+                // SVG 크기 강제 적용
+                svgElement.style.width = '100px';
+              }
             }
           });
         });
@@ -131,16 +135,22 @@ awards:
       TREC2024 Product Search Track 부문에서는 기존의 검색 엔진 보다 더 뛰어난 효율을 낼 수 있는 새로운 모델을 찾는 것을 목표로 했다. 우리는 Sparse Retrieval과 Dense Retrieval의 결합을 통해 더 높은 성능을 낼 수 있는 방법을 찾는 것을 목표로 하여 제출하였다.
       <script>
         document.addEventListener("DOMContentLoaded", function() {
-          const targetDivs = Array.from(document.querySelectorAll('div'))
-            .filter(div => div.textContent.includes('National Institute of Standards and Technology (NIST)'));
-
-          targetDivs.forEach(function(div) {
-            // 해당 div 안에 있는 SVG 요소 찾기
-            const svgElement = div.querySelector('svg');
+          // 모든 요소 중에서 텍스트 'National Institute of Standards and Technology (NIST)'가 포함된 요소 추적
+          const targetElements = Array.from(document.querySelectorAll('*'))
+            .filter(el => el.textContent.includes('National Institute of Standards and Technology (NIST)'));
+          
+          targetElements.forEach(function(element) {
+            // 가장 가까운 div 부모에서만 SVG 찾기 (가장 가까운 상위 div)
+            const parentDiv = element.closest('div');
             
-            if (svgElement) {
-              // SVG의 크기 강제 적용
-              svgElement.style.width = '30px';
+            if (parentDiv) {
+              const svgElement = parentDiv.querySelector('svg');
+              
+              if (svgElement) {
+                // SVG 크기 강제 적용
+                svgElement.style.width = '100px';
+                svgElement.style.height = '100px';
+              }
             }
           });
         });
