@@ -112,33 +112,36 @@ awards:
     icon: TREC
     summary: |
       TREC2024 Product Search Track 부문에서는 기존의 검색 엔진 보다 더 뛰어난 효율을 낼 수 있는 새로운 모델을 찾는 것을 목표로 했다. 우리는 Sparse Retrieval과 Dense Retrieval의 결합을 통해 더 높은 성능을 낼 수 있는 방법을 찾는 것을 목표로 하여 제출하였다.
+      
       <script>
-        document.addEventListener("DOMContentLoaded", function() {
-          // 텍스트 '한국디지털콘텐츠학회'가 포함된 요소 추적
-          const targetElements = Array.from(document.querySelectorAll('*'))
-            .filter(el => el.textContent.includes('한국디지털콘텐츠학회'));
-          
-          targetElements.forEach(function(element) {
-            // 가장 가까운 부모 div에서 svg 찾기
-            const parentDiv = element.closest('div');
-            
-            if (parentDiv) {
-              const svgElements = parentDiv.querySelectorAll('svg');
-              
-              // 첫 번째 SVG: width는 100, height는 그대로
-              if (svgElements[0]) {
-                svgElements[0].style.width = '100px';
-                // height는 변경하지 않음 (기본값 유지)
+          document.addEventListener('DOMContentLoaded', function() {
+              function updateSvgSizes() {
+                  // "Awards"라는 텍스트를 가진 요소 찾기
+                  const targetElement = [...document.querySelectorAll('*')]
+                      .find(el => el.textContent.trim() === 'Awards');
+
+                  // 요소가 존재하는지 확인
+                  if (targetElement) {
+                      // 상위 요소에서 SVG 찾기
+                      const parentElement = targetElement.parentElement; // 부모 요소 저장
+
+                      // 부모 요소의 자식 중 div 찾기
+                      const svgElements = [...parentElement.querySelectorAll('div')]
+                          .flatMap(div => Array.from(div.querySelectorAll('svg')));
+
+                      // SVG 스타일 적용
+                      if (svgElements.length > 0) {
+                          svgElements[0].style.width = '100px';  // 첫 번째 SVG
+                      }
+                      if (svgElements.length > 1) {
+                          svgElements[1].style.width = '30px';   // 두 번째 SVG
+                      }
+                  }
               }
 
-              // 두 번째 SVG: width는 30, height는 그대로
-              if (svgElements[1]) {
-                svgElements[1].style.width = '30px';
-                // height는 변경하지 않음 (기본값 유지)
-              }
-            }
+              // SVG 크기를 업데이트하는 함수 호출
+              updateSvgSizes();
           });
-        });
       </script>
   
 ---
