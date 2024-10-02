@@ -111,7 +111,7 @@ awards:
     awarder: 컴퓨터인공지능학부
     icon: computer-desktop
     summary: |
-      몰라 배운거 기억안나
+      다른 모델을 활용해 기존의 학습 데이터를 증강했고, 이를 기반으로 자동차 모델을 생성하는 diffusion model을 만들어내었다.
   - title: TREC2024 Product Search Track 참가
     url: 'https://www.notion.so/TREC-2024-0e456ef7f1d242b99e3d68c8fe1c51c7'
     date: '2024-08-11'
@@ -155,4 +155,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+현 IT정보공학과 학생으로, 데이터마이닝 연구실의 학부연구생이다. 나는 현재 TREC의 product search track 부문을 준비 중이며, BERT, GPT 등 여러 LLM 모델에 관심을 가지고 연구 및 프로젝트 진행 중에 있다.
