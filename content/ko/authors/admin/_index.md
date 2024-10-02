@@ -105,6 +105,13 @@ awards:
     icon: DCS_icon
     summary: |
       BM25 기반의 엘라스틱 서치와 DeBERTa를 Two-Stage로 활용해 검색 성능을 더욱 끌어올리는 방안을 제시하였다. 기존의 질의 및 상품 문서 데이터를 분석하여 필요한 전처리 기법을 고안하였으며, Pseudo Relevance Feedback 기법을 사용해 사용자의 의도에 더욱 가깝게 검색할 수 있도록 제시했다.
+  - title:  AI 전공특화 프로그램 발표회 우수상
+    url: 'https://csai.jbnu.ac.kr/csai/29107/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGY3NhaSUyRjQ5MjklMkYzMTU2MTklMkZhcnRjbFZpZXcuZG8lM0ZwYWdlJTNEMSUyNnNyY2hDb2x1bW4lM0RzaiUyNnNyY2hXcmQlM0RhaSUyNmJic0NsU2VxJTNEJTI2YmJzT3BlbldyZFNlcSUzRCUyNnJnc0JnbmRlU3RyJTNEJTI2cmdzRW5kZGVTdHIlM0QlMjZpc1ZpZXdNaW5lJTNEZmFsc2UlMjZwYXNzd29yZCUzRCUyNg%3D%3D'
+    date: '2023-12-26'
+    awarder: 컴퓨터인공지능학부
+    icon: computer-desktop
+    summary: |
+      몰라 배운거 기억안나
   - title: TREC2024 Product Search Track 참가
     url: 'https://www.notion.so/TREC-2024-0e456ef7f1d242b99e3d68c8fe1c51c7'
     date: '2024-08-11'
@@ -133,8 +140,8 @@ awards:
                       if (svgElements.length > 0) {
                           svgElements[0].style.width = '100px';  // 첫 번째 SVG
                       }
-                      if (svgElements.length > 1) {
-                          svgElements[1].style.width = '30px';   // 두 번째 SVG
+                      if (svgElements.length > 2) {
+                          svgElements[2].style.width = '30px';   // 두 번째 SVG
                       }
                   }
               }
