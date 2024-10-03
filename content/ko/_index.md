@@ -39,33 +39,41 @@ sections:
         
         현재는 Sparse Retrieval, Dense Retrieval에 활용하는 여러 모델 들을 응용 및 활용해보려 하고 있다.
 
-        <div class=".carousel-container">
+        <div class="carousel-container">
           <div class="carousel">
             <div class="slides">
-              <img
-                id="slide01"
-                src="https://picsum.photos/1280/720?random=1"
-                alt="slide image"
-                class="slide"
-              />
-              <img
-                id="slide02"
-                src="https://picsum.photos/1280/720?random=2"
-                alt="slide image"
-                class="slide"
-              />
-              <img
-                id="slide03"
-                src="https://picsum.photos/1280/720?random=3"
-                alt="slide image"
-                class="slide"
-              />
-              <img
-                id="slide04"
-                src="https://picsum.photos/1280/720?random=4"
-                alt="slide image"
-                class="slide"
-              />
+              <div class="slide">
+                <img
+                  id="slide1"
+                  src="https://picsum.photos/1280/720?random=1"
+                  alt="slide image"
+                />
+                <div class="slide-text">Slide 1 Text</div>
+              </div>
+              <div class="slide">
+                <img
+                  id="slide2"
+                  src="https://picsum.photos/1280/720?random=2"
+                  alt="slide image"
+                />
+                <div class="slide-text">Slide 2 Text</div>
+              </div>
+              <div class="slide">
+                <img
+                  id="slide3"
+                  src="https://picsum.photos/1280/720?random=3"
+                  alt="slide image"
+                />
+                <div class="slide-text">Slide 3 Text</div>
+              </div>
+              <div class="slide">
+                <img
+                  id="slide4"
+                  src="https://picsum.photos/1280/720?random=4"
+                  alt="slide image"
+                />
+                <div class="slide-text">Slide 4 Text</div>
+              </div>
             </div>
             <div class="controls">
               <div class="control prev-slide">&#9668;</div>
@@ -111,10 +119,10 @@ sections:
           });
 
           // Hover and Click Event
-          document.querySelectorAll(".slide").forEach((slide) => {
+          document.querySelectorAll(".slide img").forEach((slide) => {
             slide.addEventListener("mouseover", function () {
               const id = this.id;
-              if (id === "slide02") {
+              if (id === "slide2") {
                 this.style.cursor = "pointer";
               } else {
                 this.style.cursor = "default";
@@ -157,15 +165,30 @@ sections:
             width: 100%;
             transition: 1s ease-in-out all;
           }
-          .slides .slide {
+
+          .slide {
+            position: relative;
             min-width: 100%;
-            min-height: 250px;
-            height: auto;
+            height: 250px;
           }
 
-          /* .carousel:hover {
-            opacity: 1;
-          } */
+          .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+          .slide-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            pointer-events: none; /* Text가 클릭되지 않도록 설정 */
+          }
 
           .carousel:hover .controls {
             opacity: 1;
@@ -197,6 +220,7 @@ sections:
             cursor: pointer;
           }
         </style>
+
 
 
 
