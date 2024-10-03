@@ -15,9 +15,9 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      # button:
+      #   text: Download CV
+      #   url: uploads/resume.pdf
     design:
       css_class: dark
       background:
@@ -32,23 +32,23 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 나의 공부 방향'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        나는 자연어 처리 및 정보 검색 분야에 많은 관심을 가지고 있다. 현재는 BERT 등을 활용해 여러 문장을 비교하는 Task를 공부하고 있고, 이를 응용해 상품 검색에서 응용할 수 있는 방향도 살펴보고 있다.
         
-        Please reach out to collaborate 😃
+        현재는 Sparse Retrieval, Dense Retrieval에 활용하는 여러 모델 들을 응용 및 활용해보려 하고 있다.
 
         <div class=".carousel-container">
           <div class="carousel">
             <div class="slides">
-              <img
-                src="https://picsum.photos/1280/720?random=1"
-                alt="slide image"
-                class="slide"
-              />
+              <a href="https://www.example.com">
+                <img
+                  src="https://picsum.photos/1280/720?random=1"
+                  alt="slide image"
+                  class="slide"
+                />
+              </a>
               <img
                 src="https://picsum.photos/1280/720?random=2"
                 alt="slide image"
