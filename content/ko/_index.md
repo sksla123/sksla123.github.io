@@ -39,31 +39,37 @@ sections:
         
         현재는 Sparse Retrieval, Dense Retrieval에 활용하는 여러 모델 들을 응용 및 활용해보려 하고 있다.
 
-        <div class=".carousel-container">
+        <div class="carousel-container">
           <div class="carousel">
             <div class="slides">
-              <a href="https://www.example.com">
+              <a href="https://example.com/page1">
                 <img
                   src="https://picsum.photos/1280/720?random=1"
                   alt="slide image"
                   class="slide"
                 />
               </a>
-              <img
-                src="https://picsum.photos/1280/720?random=2"
-                alt="slide image"
-                class="slide"
-              />
-              <img
-                src="https://picsum.photos/1280/720?random=3"
-                alt="slide image"
-                class="slide"
-              />
-              <img
-                src="https://picsum.photos/1280/720?random=4"
-                alt="slide image"
-                class="slide"
-              />
+              <a href="https://example.com/page2">
+                <img
+                  src="https://picsum.photos/1280/720?random=2"
+                  alt="slide image"
+                  class="slide"
+                />
+              </a>
+              <a href="https://example.com/page3">
+                <img
+                  src="https://picsum.photos/1280/720?random=3"
+                  alt="slide image"
+                  class="slide"
+                />
+              </a>
+              <a href="https://example.com/page4">
+                <img
+                  src="https://picsum.photos/1280/720?random=4"
+                  alt="slide image"
+                  class="slide"
+                />
+              </a>
             </div>
             <div class="controls">
               <div class="control prev-slide">&#9668;</div>
@@ -142,10 +148,6 @@ sections:
             height: auto;
           }
 
-          /* .carousel:hover {
-            opacity: 1;
-          } */
-
           .carousel:hover .controls {
             opacity: 1;
           }
@@ -175,8 +177,8 @@ sections:
             transition: ease 0.3s;
             cursor: pointer;
           }
-
         </style>
+
 
     design:
       columns: '1'
