@@ -170,12 +170,13 @@ sections:
             position: relative;
             min-width: 100%;
             height: 250px;
+            overflow: hidden; /* 추가: 슬라이드 내에서 레터박스 생성을 방지 */
           }
 
           .slide img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: cover; /* 추가: 이미지를 슬라이드 크기에 맞춰줌 */
           }
 
           .slide-text {
@@ -221,6 +222,7 @@ sections:
           }
         </style>
 
+        
 
 
 
