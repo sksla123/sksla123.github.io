@@ -111,7 +111,7 @@ awards:
     awarder: 컴퓨터인공지능학부
     icon: JBNU_Emblem
     summary: |
-      다른 모델을 활용해 기존의 학습 데이터를 증강했고, 이를 기반으로 자동차 모델을 생성하는 diffusion model을 만들어내었다.
+      컴퓨터 비전 모델을 활용해 기존의 학습 데이터를 증강했고, 이를 기반으로 여러 측면에서 관측할 수 있는 자동차 이미지를 생성하는 diffusion model을 만들어냈다. 추후에는 이를 바탕으로 2D의 이미지가 주어졌을 때 3D 모델을 생성하는 이미지 생성 모델 프로젝트를 진행해보고자 한다.
   - title: TREC2024 Product Search Track 참가
     url: 'https://www.notion.so/TREC-2024-0e456ef7f1d242b99e3d68c8fe1c51c7'
     date: '2024-08-11'
