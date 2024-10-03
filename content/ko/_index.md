@@ -179,7 +179,7 @@ sections:
             object-fit: cover; /* 이미지를 비율을 유지하며 슬라이드에 맞춤 */
           }
 
-          .slide text {
+          .slide .text {
             position: absolute;
             bottom: 20px; /* 아래쪽 여백 */
             left: 50%; /* 수평 중앙 정렬 */
