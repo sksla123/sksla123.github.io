@@ -188,6 +188,7 @@ sections:
             font-size: 24px; /* 텍스트 크기 */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 텍스트 그림자 */
             pointer-events: auto; /* 클릭 이벤트를 허용 */
+            user-select: none; /* 텍스트 선택 방지 */
           }
 
           .carousel:hover .controls {
