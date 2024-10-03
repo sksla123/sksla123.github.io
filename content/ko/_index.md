@@ -44,35 +44,31 @@ sections:
             <div class="slides">
               <div class="slide">
                 <img
-                  id="slide1"
+                  id="slide01"
                   src="https://picsum.photos/1280/720?random=1"
                   alt="slide image"
                 />
-                <div class="slide-text">Slide 1 Text</div>
               </div>
               <div class="slide">
                 <img
-                  id="slide2"
+                  id="slide02"
                   src="https://picsum.photos/1280/720?random=2"
                   alt="slide image"
                 />
-                <div class="slide-text">Slide 2 Text</div>
               </div>
               <div class="slide">
                 <img
-                  id="slide3"
+                  id="slide03"
                   src="https://picsum.photos/1280/720?random=3"
                   alt="slide image"
                 />
-                <div class="slide-text">Slide 3 Text</div>
               </div>
               <div class="slide">
                 <img
-                  id="slide4"
+                  id="slide04"
                   src="https://picsum.photos/1280/720?random=4"
                   alt="slide image"
                 />
-                <div class="slide-text">Slide 4 Text</div>
               </div>
             </div>
             <div class="controls">
@@ -122,7 +118,7 @@ sections:
           document.querySelectorAll(".slide img").forEach((slide) => {
             slide.addEventListener("mouseover", function () {
               const id = this.id;
-              if (id === "slide2") {
+              if (id === "slide02") {
                 this.style.cursor = "pointer";
               } else {
                 this.style.cursor = "default";
@@ -131,7 +127,7 @@ sections:
 
             slide.addEventListener("click", function () {
               const id = this.id;
-              if (id === "slide2") {
+              if (id === "slide02") {
                 window.location.href = "https://www.example.com"; // 이동할 URL
               }
             });
@@ -149,7 +145,8 @@ sections:
 
           .carousel {
             width: 100%;
-            height: 250px;
+            max-width: 1280px; /* 최대 폭 설정 (원하는 대로 조정 가능) */
+            height: 250px; /* 고정 높이 설정 */
             border-radius: 3px;
             overflow: hidden;
             position: relative;
@@ -158,37 +155,23 @@ sections:
 
           .slides {
             position: absolute;
-            top: 50%;
+            top: 0;
             left: 0;
-            transform: translateY(-50%);
             display: flex;
             width: 100%;
+            height: 100%; /* 슬라이드의 높이를 컨테이너의 높이에 맞춤 */
             transition: 1s ease-in-out all;
           }
 
           .slide {
-            position: relative;
             min-width: 100%;
-            height: 250px;
-            overflow: hidden; /* 추가: 슬라이드 내에서 레터박스 생성을 방지 */
+            height: 100%; /* 슬라이드의 높이를 100%로 설정 */
           }
 
           .slide img {
             width: 100%;
-            height: 100%;
-            object-fit: cover; /* 추가: 이미지를 슬라이드 크기에 맞춰줌 */
-          }
-
-          .slide-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 24px;
-            font-weight: bold;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            pointer-events: none; /* Text가 클릭되지 않도록 설정 */
+            height: 100%; /* 이미지를 슬라이드 크기에 맞춤 */
+            object-fit: cover; /* 이미지를 비율을 유지하며 슬라이드에 맞춤 */
           }
 
           .carousel:hover .controls {
@@ -199,7 +182,7 @@ sections:
             opacity: 0;
             display: flex;
             position: absolute;
-            top: 45%;
+            top: 50%;
             left: 0;
             justify-content: space-between;
             width: 100%;
@@ -222,7 +205,6 @@ sections:
           }
         </style>
 
-        
 
 
 
