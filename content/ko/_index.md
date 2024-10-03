@@ -155,10 +155,12 @@ sections:
             width: 100%;
             transition: 1s ease-in-out all;
           }
+
           .slides .slide {
             min-width: 100%;
             min-height: 250px;
             height: auto;
+            object-fit: cover;
             cursor: pointer; /* 클릭할 수 있게 커서를 변경 */
           }
 
