@@ -20,4 +20,4 @@ sections:
         title: '지도'
         subtitle: ''
         text: |-
-          
+          지도에용
