@@ -109,7 +109,7 @@ awards:
     url: 'https://csai.jbnu.ac.kr/csai/29107/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGY3NhaSUyRjQ5MjklMkYzMTU2MTklMkZhcnRjbFZpZXcuZG8lM0ZwYWdlJTNEMSUyNnNyY2hDb2x1bW4lM0RzaiUyNnNyY2hXcmQlM0RhaSUyNmJic0NsU2VxJTNEJTI2YmJzT3BlbldyZFNlcSUzRCUyNnJnc0JnbmRlU3RyJTNEJTI2cmdzRW5kZGVTdHIlM0QlMjZpc1ZpZXdNaW5lJTNEZmFsc2UlMjZwYXNzd29yZCUzRCUyNg%3D%3D'
     date: '2023-12-26'
     awarder: 컴퓨터인공지능학부
-    icon: JBNU_Enblem
+    icon: JBNU_Emblem
     summary: |
       다른 모델을 활용해 기존의 학습 데이터를 증강했고, 이를 기반으로 자동차 모델을 생성하는 diffusion model을 만들어내었다.
   - title: TREC2024 Product Search Track 참가
