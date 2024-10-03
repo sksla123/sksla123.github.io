@@ -166,6 +166,7 @@ sections:
           .slide {
             min-width: 100%;
             height: 100%; /* 슬라이드의 높이를 100%로 설정 */
+            position: relative; /* 텍스트 레이어를 위해 position 추가 */
           }
 
           .slide img {
@@ -204,10 +205,6 @@ sections:
             cursor: pointer;
           }
         </style>
-
-
-
-
 
     design:
       columns: '1'
