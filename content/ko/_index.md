@@ -39,32 +39,32 @@ sections:
         
         현재는 Sparse Retrieval, Dense Retrieval에 활용하는 여러 모델 들을 응용 및 활용해보려 하고 있다.
 
-        <div class="carousel-container">
+        <div class=".carousel-container">
           <div class="carousel">
             <div class="slides">
               <img
                 src="https://picsum.photos/1280/720?random=1"
                 alt="slide image"
                 class="slide"
-                id="slide1"
+                id="slide01"
               />
               <img
                 src="https://picsum.photos/1280/720?random=2"
                 alt="slide image"
                 class="slide"
-                id="slide2"
+                id="slide02"
               />
               <img
                 src="https://picsum.photos/1280/720?random=3"
                 alt="slide image"
                 class="slide"
-                id="slide3"
+                id="slide03"
               />
               <img
                 src="https://picsum.photos/1280/720?random=4"
                 alt="slide image"
                 class="slide"
-                id="slide4"
+                id="slide04"
               />
             </div>
             <div class="controls">
@@ -109,23 +109,6 @@ sections:
             changeSlide(false);
             restart();
           });
-
-          // 이미지 클릭 시 링크 이동 처리
-          document.getElementById("slide1").addEventListener("click", function () {
-            window.location.href = "https://example.com/page1";
-          });
-
-          document.getElementById("slide2").addEventListener("click", function () {
-            window.location.href = "https://example.com/page2";
-          });
-
-          document.getElementById("slide3").addEventListener("click", function () {
-            window.location.href = "https://example.com/page3";
-          });
-
-          document.getElementById("slide4").addEventListener("click", function () {
-            window.location.href = "https://example.com/page4";
-          });
         </script>
 
         <style>
@@ -139,7 +122,7 @@ sections:
 
           .carousel {
             width: 100%;
-            height: 100%; /* 변경된 부분 */
+            height: 250px;
             border-radius: 3px;
             overflow: hidden;
             position: relative;
@@ -148,18 +131,22 @@ sections:
 
           .slides {
             position: absolute;
-            top: 0; /* 중앙 정렬 제거 */
+            top: 50%;
             left: 0;
+            transform: translateY(-50%);
             display: flex;
             width: 100%;
             transition: 1s ease-in-out all;
           }
-
           .slides .slide {
-            width: 100%; /* 이미지의 너비를 부모에 맞춤 */
+            min-width: 100%;
+            min-height: 250px;
             height: auto;
-            object-fit: cover; /* 이미지를 컨테이너에 맞춤 */
           }
+
+          /* .carousel:hover {
+            opacity: 1;
+          } */
 
           .carousel:hover .controls {
             opacity: 1;
@@ -191,6 +178,7 @@ sections:
             cursor: pointer;
           }
         </style>
+
 
 
 
