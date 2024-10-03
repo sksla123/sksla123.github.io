@@ -179,20 +179,20 @@ sections:
             opacity: 1;
           }
 
-          .carousel .controls {
+         .carousel .controls {
             opacity: 0;
             display: flex;
             position: absolute;
             top: 50%;
             left: 0;
-            justify-content: space-between;
-            width: 100%;
-            z-index: 10;
+            width: 100%; /* 전체 너비 사용 */
+            z-index: 1; /* 슬라이드 위로 설정 */
             transition: all ease 0.5s;
+            pointer-events: none; /* 기본적으로 이벤트 비활성화 */
           }
 
           .carousel .control {
-            margin: 0 5px;
+            margin: 0 5px; /* 버튼 간의 여백 */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -203,7 +203,26 @@ sections:
             opacity: 0.5;
             transition: ease 0.3s;
             cursor: pointer;
+            pointer-events: auto; /* 버튼에 대해서만 포인터 이벤트 활성화 */
           }
+
+          /* 컨트롤의 위치를 좌우로 조정 */
+          .carousel .control.prev-slide {
+            position: absolute;
+            left: 10px; /* 왼쪽 여백 */
+          }
+
+          .carousel .control.next-slide {
+            position: absolute;
+            right: 10px; /* 오른쪽 여백 */
+          }
+
+          /* 호버 시 컨트롤이 보이도록 */
+          .carousel:hover .controls {
+            opacity: 1;
+          }
+          
+          /*강제로 margin 제거*/
           #slide01 {
             margin: 0; /* margin을 0으로 설정 */
           }
