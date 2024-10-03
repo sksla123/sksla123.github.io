@@ -204,6 +204,18 @@ sections:
             transition: ease 0.3s;
             cursor: pointer;
           }
+          #slide01 {
+            margin: 0; /* margin을 0으로 설정 */
+          }
+          #slide02 {
+            margin: 0; /* margin을 0으로 설정 */
+          }
+          #slide03 {
+            margin: 0; /* margin을 0으로 설정 */
+          }
+          #slide04 {
+            margin: 0; /* margin을 0으로 설정 */
+          }
         </style>
 
 
