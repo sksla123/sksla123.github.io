@@ -179,7 +179,7 @@ sections:
             object-fit: cover; /* 이미지를 비율을 유지하며 슬라이드에 맞춤 */
           }
 
-          .text {
+          .slide text {
             position: absolute;
             bottom: 20px; /* 아래쪽 여백 */
             left: 50%; /* 수평 중앙 정렬 */
@@ -187,7 +187,7 @@ sections:
             color: white; /* 텍스트 색상 */
             font-size: 24px; /* 텍스트 크기 */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 텍스트 그림자 */
-            z-index: 2; /* 이미지 위에 표시 */
+            pointer-events: auto; /* 클릭 이벤트를 허용 */
           }
 
           .carousel:hover .controls {
@@ -251,10 +251,6 @@ sections:
             margin: 0; /* margin을 0으로 설정 */
           }
         </style>
-
-
-
-
     design:
       columns: '1'
   - block: collection
