@@ -135,12 +135,18 @@ sections:
         </script>
 
         <style>
+          * {
+            margin: 0; /* 모든 요소의 기본 margin 제거 */
+            padding: 0; /* 모든 요소의 기본 padding 제거 */
+            box-sizing: border-box; /* 박스 모델 설정 */
+          }
+
           .carousel-container {
-            background: #3e3e3e;
+            background: transparent; /* 완전한 투명으로 설정 */
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 300px; /* 고정된 높이 설정 */
+            height: 250px; /* 고정된 높이 설정 */
           }
 
           .carousel {
@@ -204,6 +210,7 @@ sections:
             cursor: pointer;
           }
         </style>
+
 
 
     design:
