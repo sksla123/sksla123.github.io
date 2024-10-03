@@ -48,6 +48,7 @@ sections:
                   src="https://picsum.photos/1280/720?random=1"
                   alt="slide image"
                 />
+                <div class="text">슬라이드 1 텍스트</div>
               </div>
               <div class="slide">
                 <img
@@ -55,6 +56,7 @@ sections:
                   src="https://picsum.photos/1280/720?random=2"
                   alt="slide image"
                 />
+                <div class="text">슬라이드 2 텍스트</div>
               </div>
               <div class="slide">
                 <img
@@ -62,6 +64,7 @@ sections:
                   src="https://picsum.photos/1280/720?random=3"
                   alt="slide image"
                 />
+                <div class="text">슬라이드 3 텍스트</div>
               </div>
               <div class="slide">
                 <img
@@ -69,6 +72,7 @@ sections:
                   src="https://picsum.photos/1280/720?random=4"
                   alt="slide image"
                 />
+                <div class="text">슬라이드 4 텍스트</div>
               </div>
             </div>
             <div class="controls">
@@ -175,6 +179,17 @@ sections:
             object-fit: cover; /* 이미지를 비율을 유지하며 슬라이드에 맞춤 */
           }
 
+          .text {
+            position: absolute;
+            bottom: 20px; /* 아래쪽 여백 */
+            left: 50%; /* 수평 중앙 정렬 */
+            transform: translateX(-50%); /* 중앙 정렬을 위한 변환 */
+            color: white; /* 텍스트 색상 */
+            font-size: 24px; /* 텍스트 크기 */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 텍스트 그림자 */
+            z-index: 2; /* 이미지 위에 표시 */
+          }
+
           .carousel:hover .controls {
             opacity: 1;
           }
@@ -183,7 +198,7 @@ sections:
             opacity: 0;
             display: flex;
             position: absolute;
-            top: 50%;
+            top: 42.5%;
             left: 0;
             width: 100%; /* 전체 너비 사용 */
             z-index: 1; /* 슬라이드 위로 설정 */
@@ -209,12 +224,12 @@ sections:
           /* 컨트롤의 위치를 좌우로 조정 */
           .carousel .control.prev-slide {
             position: absolute;
-            left: 10px; /* 왼쪽 여백 */
+            left: 1%; /* 왼쪽 여백 */
           }
 
           .carousel .control.next-slide {
             position: absolute;
-            right: 10px; /* 오른쪽 여백 */
+            right: 1%; /* 오른쪽 여백 */
           }
 
           /* 호버 시 컨트롤이 보이도록 */
