@@ -141,7 +141,7 @@ awards:
                           svgElements[0].style.width = '100px';  // 첫 번째 SVG
                       }
                       if (svgElements.length > 1) {
-                          svgElements[1].style.width = '100px';  // 첫 번째 SVG
+                          svgElements[1].style.width = '30px';  // 첫 번째 SVG
                       }
                       if (svgElements.length > 2) {
                           svgElements[2].style.width = '30px';   // 두 번째 SVG
