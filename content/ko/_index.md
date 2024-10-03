@@ -43,28 +43,28 @@ sections:
           <div class="carousel">
             <div class="slides">
               <img
+                id="slide01"
                 src="https://picsum.photos/1280/720?random=1"
                 alt="slide image"
                 class="slide"
-                id="slide01"
               />
               <img
+                id="slide02"
                 src="https://picsum.photos/1280/720?random=2"
                 alt="slide image"
                 class="slide"
-                id="slide02"
               />
               <img
+                id="slide03"
                 src="https://picsum.photos/1280/720?random=3"
                 alt="slide image"
                 class="slide"
-                id="slide03"
               />
               <img
+                id="slide04"
                 src="https://picsum.photos/1280/720?random=4"
                 alt="slide image"
                 class="slide"
-                id="slide04"
               />
             </div>
             <div class="controls">
@@ -108,6 +108,25 @@ sections:
           document.querySelector(".prev-slide").addEventListener("click", function () {
             changeSlide(false);
             restart();
+          });
+
+          // Hover and Click Event
+          document.querySelectorAll(".slide").forEach((slide) => {
+            slide.addEventListener("mouseover", function () {
+              const id = this.id;
+              if (id === "slide02") {
+                this.style.cursor = "pointer";
+              } else {
+                this.style.cursor = "default";
+              }
+            });
+
+            slide.addEventListener("click", function () {
+              const id = this.id;
+              if (id === "slide2") {
+                window.location.href = "https://www.example.com"; // 이동할 URL
+              }
+            });
           });
         </script>
 
