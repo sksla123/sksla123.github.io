@@ -140,6 +140,9 @@ awards:
                       if (svgElements.length > 0) {
                           svgElements[0].style.width = '100px';  // 첫 번째 SVG
                       }
+                      if (svgElements.length > 1) {
+                          svgElements[1].style.width = '100px';  // 첫 번째 SVG
+                      }
                       if (svgElements.length > 2) {
                           svgElements[2].style.width = '30px';   // 두 번째 SVG
                       }
@@ -155,4 +158,4 @@ awards:
 
 ## About Me
 
-현 전북대학교 IT정보공학과 재학생으로, 데이터마이닝 연구실의 학부연구생이다. 현재는 BERT, GPT 등 여러 LLM 모델에 관심을 가지고 공부하고 있으며, 자연어 처리와 관련된 프로젝트를 진행해보고 있다. 
+현 전북대학교 IT정보공학과 재학생으로, 데이터마이닝 연구실의 학부연구생이다. 현재는 BERT, GPT 등 여러 LLM 모델에 관심을 가지고 공부하고 있으며, 자연어 처리, 정보 검색과 관련된 프로젝트를 진행해보고 있다. 
