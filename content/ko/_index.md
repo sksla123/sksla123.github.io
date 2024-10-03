@@ -139,7 +139,7 @@ sections:
 
           .carousel {
             width: 100%;
-            height: 250px;
+            height: 100%; /* 변경된 부분 */
             border-radius: 3px;
             overflow: hidden;
             position: relative;
@@ -148,20 +148,17 @@ sections:
 
           .slides {
             position: absolute;
-            top: 50%;
+            top: 0; /* 중앙 정렬 제거 */
             left: 0;
-            transform: translateY(-50%);
             display: flex;
             width: 100%;
             transition: 1s ease-in-out all;
           }
 
           .slides .slide {
-            min-width: 100%;
-            min-height: 250px;
+            width: 100%; /* 이미지의 너비를 부모에 맞춤 */
             height: auto;
-            object-fit: cover;
-            cursor: pointer; /* 클릭할 수 있게 커서를 변경 */
+            object-fit: cover; /* 이미지를 컨테이너에 맞춤 */
           }
 
           .carousel:hover .controls {
@@ -194,6 +191,7 @@ sections:
             cursor: pointer;
           }
         </style>
+
 
 
     design:
