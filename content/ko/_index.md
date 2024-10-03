@@ -42,34 +42,30 @@ sections:
         <div class="carousel-container">
           <div class="carousel">
             <div class="slides">
-              <a href="https://example.com/page1" class="slide-link">
-                <img
-                  src="https://picsum.photos/1280/720?random=1"
-                  alt="slide image"
-                  class="slide"
-                />
-              </a>
-              <a href="https://example.com/page2" class="slide-link">
-                <img
-                  src="https://picsum.photos/1280/720?random=2"
-                  alt="slide image"
-                  class="slide"
-                />
-              </a>
-              <a href="https://example.com/page3" class="slide-link">
-                <img
-                  src="https://picsum.photos/1280/720?random=3"
-                  alt="slide image"
-                  class="slide"
-                />
-              </a>
-              <a href="https://example.com/page4" class="slide-link">
-                <img
-                  src="https://picsum.photos/1280/720?random=4"
-                  alt="slide image"
-                  class="slide"
-                />
-              </a>
+              <img
+                src="https://picsum.photos/1280/720?random=1"
+                alt="slide image"
+                class="slide"
+                id="slide1"
+              />
+              <img
+                src="https://picsum.photos/1280/720?random=2"
+                alt="slide image"
+                class="slide"
+                id="slide2"
+              />
+              <img
+                src="https://picsum.photos/1280/720?random=3"
+                alt="slide image"
+                class="slide"
+                id="slide3"
+              />
+              <img
+                src="https://picsum.photos/1280/720?random=4"
+                alt="slide image"
+                class="slide"
+                id="slide4"
+              />
             </div>
             <div class="controls">
               <div class="control prev-slide">&#9668;</div>
@@ -113,6 +109,23 @@ sections:
             changeSlide(false);
             restart();
           });
+
+          // 이미지 클릭 시 링크 이동 처리
+          document.getElementById("slide1").addEventListener("click", function () {
+            window.location.href = "https://example.com/page1";
+          });
+
+          document.getElementById("slide2").addEventListener("click", function () {
+            window.location.href = "https://example.com/page2";
+          });
+
+          document.getElementById("slide3").addEventListener("click", function () {
+            window.location.href = "https://example.com/page3";
+          });
+
+          document.getElementById("slide4").addEventListener("click", function () {
+            window.location.href = "https://example.com/page4";
+          });
         </script>
 
         <style>
@@ -134,7 +147,7 @@ sections:
           }
 
           .slides {
-            position: relative; /* 변경된 부분 */
+            position: absolute;
             top: 50%;
             left: 0;
             transform: translateY(-50%);
@@ -142,16 +155,11 @@ sections:
             width: 100%;
             transition: 1s ease-in-out all;
           }
-
-          .slide-link {
-            display: block; /* 링크를 블록으로 처리하여 클릭 가능 영역 확장 */
-            width: 100%; /* 이미지의 크기에 맞춰 링크 확장 */
-          }
-
-          .slide {
+          .slides .slide {
             min-width: 100%;
             min-height: 250px;
             height: auto;
+            cursor: pointer; /* 클릭할 수 있게 커서를 변경 */
           }
 
           .carousel:hover .controls {
@@ -184,6 +192,7 @@ sections:
             cursor: pointer;
           }
         </style>
+
 
     design:
       columns: '1'
