@@ -135,18 +135,13 @@ sections:
         </script>
 
         <style>
-          * {
-            margin: 0; /* 모든 요소의 기본 margin 제거 */
-            padding: 0; /* 모든 요소의 기본 padding 제거 */
-            box-sizing: border-box; /* 박스 모델 설정 */
-          }
-
           .carousel-container {
             background: transparent; /* 완전한 투명으로 설정 */
             display: flex;
             justify-content: center;
             align-items: center;
             height: 250px; /* 고정된 높이 설정 */
+            padding: 32px 0; /* 위아래 32px의 padding 추가 */
           }
 
           .carousel {
@@ -176,7 +171,7 @@ sections:
 
           .slide img {
             width: 100%;
-            height: 100%; /* 슬라이드의 높이에 맞춤 */
+            height: 100%; /* 이미지를 슬라이드의 높이에 맞춤 */
             object-fit: cover; /* 이미지를 비율을 유지하며 슬라이드에 맞춤 */
           }
 
@@ -210,6 +205,7 @@ sections:
             cursor: pointer;
           }
         </style>
+
 
 
 
