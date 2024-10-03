@@ -42,28 +42,28 @@ sections:
         <div class="carousel-container">
           <div class="carousel">
             <div class="slides">
-              <a href="https://example.com/page1">
+              <a href="https://example.com/page1" class="slide-link">
                 <img
                   src="https://picsum.photos/1280/720?random=1"
                   alt="slide image"
                   class="slide"
                 />
               </a>
-              <a href="https://example.com/page2">
+              <a href="https://example.com/page2" class="slide-link">
                 <img
                   src="https://picsum.photos/1280/720?random=2"
                   alt="slide image"
                   class="slide"
                 />
               </a>
-              <a href="https://example.com/page3">
+              <a href="https://example.com/page3" class="slide-link">
                 <img
                   src="https://picsum.photos/1280/720?random=3"
                   alt="slide image"
                   class="slide"
                 />
               </a>
-              <a href="https://example.com/page4">
+              <a href="https://example.com/page4" class="slide-link">
                 <img
                   src="https://picsum.photos/1280/720?random=4"
                   alt="slide image"
@@ -134,7 +134,7 @@ sections:
           }
 
           .slides {
-            position: absolute;
+            position: relative; /* 변경된 부분 */
             top: 50%;
             left: 0;
             transform: translateY(-50%);
@@ -142,7 +142,13 @@ sections:
             width: 100%;
             transition: 1s ease-in-out all;
           }
-          .slides .slide {
+
+          .slide-link {
+            display: block; /* 링크를 블록으로 처리하여 클릭 가능 영역 확장 */
+            width: 100%; /* 이미지의 크기에 맞춰 링크 확장 */
+          }
+
+          .slide {
             min-width: 100%;
             min-height: 250px;
             height: auto;
@@ -178,7 +184,6 @@ sections:
             cursor: pointer;
           }
         </style>
-
 
     design:
       columns: '1'
