@@ -140,13 +140,13 @@ sections:
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            height: 300px; /* 고정된 높이 설정 */
           }
 
           .carousel {
             width: 100%;
             max-width: 1280px; /* 최대 폭 설정 (원하는 대로 조정 가능) */
-            height: 250px; /* 고정 높이 설정 */
+            height: 100%; /* 컨테이너의 높이에 맞춤 */
             border-radius: 3px;
             overflow: hidden;
             position: relative;
@@ -155,7 +155,7 @@ sections:
 
           .slides {
             position: absolute;
-            top: 0;
+            top: 0; /* 위치를 컨테이너의 상단으로 맞춤 */
             left: 0;
             display: flex;
             width: 100%;
@@ -165,13 +165,12 @@ sections:
 
           .slide {
             min-width: 100%;
-            height: 100%; /* 슬라이드의 높이를 100%로 설정 */
             position: relative; /* 텍스트 레이어를 위해 position 추가 */
           }
 
           .slide img {
             width: 100%;
-            height: 100%; /* 이미지를 슬라이드 크기에 맞춤 */
+            height: 100%; /* 슬라이드의 높이에 맞춤 */
             object-fit: cover; /* 이미지를 비율을 유지하며 슬라이드에 맞춤 */
           }
 
@@ -205,6 +204,7 @@ sections:
             cursor: pointer;
           }
         </style>
+
 
     design:
       columns: '1'
