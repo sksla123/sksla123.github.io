@@ -10,21 +10,18 @@ imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
 
-# Install any Hugo Blox within the `hugo-blox/blox/` folder
-# mounts:
-#   - source: hugo-blox-builder/modules/blox-bootstrap/layouts/partials/blocks
-#     target: layouts/partials/blocks/
-#     includeFiles: 'slider.html'
-#   - source: hugo-blox/blox/community
-#     target: layouts/partials/blox/community/
-#     includeFiles: '**.html'
-#   - source: hugo-blox/blox/all-access
-#     target: layouts/partials/blox/
-#     includeFiles: '**.html'
-#   - source: hugo-blox/blox
-#     target: assets/dist/community/blox/
-#     includeFiles: '**.css'
-#   - source: layouts
-#     target: layouts
-#   - source: assets
-#     target: assets
+Install any Hugo Blox within the `hugo-blox/blox/` folder
+mounts:
+  - source: hugo-blox/blox/community
+    target: layouts/partials/blox/community/
+    includeFiles: '**.html'
+  - source: hugo-blox/blox/all-access
+    target: layouts/partials/blox/
+    includeFiles: '**.html'
+  - source: hugo-blox/blox
+    target: assets/dist/community/blox/
+    includeFiles: '**.css'
+  - source: layouts
+    target: layouts
+  - source: assets
+    target: assets
