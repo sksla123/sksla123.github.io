@@ -8,18 +8,11 @@ sections:
   - block: about.biography
     content:
       username: "admin"  # 여기에서 admin을 지정
-  # - block: hero
-  #   content:
-  #     title: |
-  #       Wowchemy
-  #       Research Group
-  #     image:
-  #       filename: welcome.jpg
-  #     text: |
-  #       <br>
-        
-  #       The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+    design:
+      color: black
+      image:
+        filename: stacked-peaks_blue.svg
+        position: center
   - block: collection
     content:
       title: Latest News
