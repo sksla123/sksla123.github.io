@@ -40,7 +40,7 @@ sections:
     design:
       columns: '1'
 
-  - block: custom/slider
+  - blox: custom/slider
     content:
       slides:
       - title: <span style="font-size:70%">Recruit</span>
