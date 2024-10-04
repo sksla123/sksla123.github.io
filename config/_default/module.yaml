@@ -12,10 +12,10 @@ imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
 
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
-# mounts:
-#   - source: hugo-blox-builder/modules/blox-bootstrap/layouts/partials/blocks
-#     target: layouts/partials/blox/
-#     includeFiles: '**.html'
+mounts:
+  - source: hugo-blox-builder/modules/blox-bootstrap/layouts/partials/blocks
+    target: layouts/partials/blocks/
+    includeFiles: 'slider.html'
 #   - source: hugo-blox/blox/community
 #     target: layouts/partials/blox/community/
 #     includeFiles: '**.html'
