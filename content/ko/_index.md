@@ -9,6 +9,15 @@ sections:
     content:
       title: Biography
       username: "admin"  # 여기에서 admin을 지정
+    design:
+      background:
+        image: 
+          filename: stacked-peaks_blue.svg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
   - block: collection
     content:
       title: Latest News
