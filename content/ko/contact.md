@@ -22,13 +22,6 @@ sections:
         text: |-
           <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-          <style>
-            #map {
-              /* 지도의 크기를 설정 */
-              width: 100%;
-              height: 100%;
-            }
-          </style>
           <div id="map"></div>
           <script>
             // Leaflet 초기화
@@ -45,4 +38,12 @@ sections:
             // 마커를 지도에 추가
             L.marker({lon: 127.766, lat: 36.355}).bindPopup('대한민국의 중심지, 장연리마을').addTo(map);
           </script>
+          <style>
+            #map {
+              /* 지도의 크기를 설정 */
+              width: 100%;
+              height: 100%;
+              position: absolute;
+            }
+          </style>
 ---
