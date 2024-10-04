@@ -40,9 +40,7 @@ sections:
     design:
       columns: '1'
   - block: 
-    - name: blocks/slider
-      options:
-        init: "layouts/partials/landing_page.html"
+    - name: custom/slider
     content:
       slides:
       - title: <span style="font-size:70%">Recruit</span>
