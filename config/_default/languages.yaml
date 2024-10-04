@@ -5,6 +5,7 @@
 # Default language
 ko:
   languageCode: ko-kr
+  contentDir: content/ko
 
 # Uncomment the lines below to configure your website in a second language.
 en:
