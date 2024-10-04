@@ -7,12 +7,8 @@ type: landing
 sections:
   - block: about.biography
     content:
+      title: Biography
       username: "admin"  # 여기에서 admin을 지정
-    design:
-      color: black
-      image:
-        filename: stacked-peaks_blue.svg
-        position: center
   - block: collection
     content:
       title: Latest News
