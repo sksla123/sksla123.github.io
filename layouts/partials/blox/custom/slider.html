@@ -1,26 +1,17 @@
-{{/* Hugo Blox: Slider */}}
-{{/* Documentation: https://hugoblox.com/blocks/ */}}
-{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+{{/* Hugo Blox: Tailwind CSS Slider */}}
 
-{{/* Initialise */}}
-<!-- <link rel="stylesheet" href="{{ "/css/slider.css" | relURL }}"> -->
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $hash_id := .wcIdentifier }}
 {{ $slide_count := len $block.content.slides }}
 
 <div id="{{ $hash_id }}" class="relative w-full" data-carousel="slide">
-    <!-- Carousel wrapper -->
     <div class="relative h-[{{ $block.design.slide_height }}] overflow-hidden rounded-lg">
         {{ range $index, $item := $block.content.slides }}
-        <div class="hidden duration-700 ease-in-out {{if eq $index 0}}active{{end}}" data-carousel-item>
-            {{ with $item.background.image.filename }}
-            <img src="{{ . | relURL }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="{{ $item.title }}">
-            {{ end }}
-            <div class="absolute inset-0 flex items-center justify-center" style="background-color: {{ $item.background.color }}; opacity: 0.7;">
-                <div class="text-center">
+        <div class="hidden duration-700 ease-in-out {{if eq $index 0}}block{{else}}hidden{{end}}" data-carousel-item>
+            <img src="{{ with $item.background.image.filename }}{{ . | relURL }}{{ end }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="{{ $item.title }}">
+            <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+                <div class="text-center text-white">
                     <h1 class="text-xl font-bold">{{ $item.title | markdownify }}</h1>
                     <p>{{ $item.content | markdownify }}</p>
                     {{ if $item.link.url }}
@@ -34,14 +25,12 @@
         {{ end }}
     </div>
 
-    <!-- Slider indicators -->
     <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
         {{ range $index, $item := $block.content.slides }}
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="{{ if eq $index 0 }}true{{ else }}false{{ end }}" aria-label="Slide {{ add $index 1 }}" data-carousel-slide-to="{{ $index }}"></button>
+        <button type="button" class="w-3 h-3 rounded-full {{if eq $index 0}}bg-blue-500{{else}}bg-gray-300{{end}}" aria-current="{{ if eq $index 0 }}true{{ else }}false{{ end }}" aria-label="Slide {{ add $index 1 }}" data-carousel-slide-to="{{ $index }}"></button>
         {{ end }}
     </div>
 
-    <!-- Slider controls -->
     <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50">
             <svg class="w-4 h-4 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
@@ -61,31 +50,22 @@
 </div>
 
 <script>
-  // 슬라이더 동작을 위한 JavaScript
-  const carouselItems = document.querySelectorAll('[data-carousel-item]');
-  const prevButton = document.querySelector('[data-carousel-prev]');
-  const nextButton = document.querySelector('[data-carousel-next]');
-  let currentIndex = 0;
+document.addEventListener('DOMContentLoaded', function () {
+    const items = document.querySelectorAll('[data-carousel-item]');
+    let currentIndex = 0;
 
-  const showSlide = (index) => {
-      carouselItems.forEach((item, i) => {
-          item.classList.add('hidden');
-          if (i === index) {
-              item.classList.remove('hidden');
-          }
-      });
-  };
+    function showSlide(index) {
+        items[currentIndex].classList.add('hidden');
+        items[index].classList.remove('hidden');
+        currentIndex = index;
+    }
 
-  prevButton.addEventListener('click', () => {
-      currentIndex = (currentIndex === 0) ? carouselItems.length - 1 : currentIndex - 1;
-      showSlide(currentIndex);
-  });
+    document.querySelector('[data-carousel-next]').addEventListener('click', function() {
+        showSlide((currentIndex + 1) % items.length);
+    });
 
-  nextButton.addEventListener('click', () => {
-      currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
-      showSlide(currentIndex);
-  });
-
-  // 초기 슬라이드 표시
-  showSlide(currentIndex);
+    document.querySelector('[data-carousel-prev]').addEventListener('click', function() {
+        showSlide((currentIndex - 1 + items.length) % items.length);
+    });
+});
 </script>
