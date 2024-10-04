@@ -16,7 +16,7 @@ mounts:
   - source: hugo-blox/blox/community
     target: layouts/partials/blox/community/
     includeFiles: '**.html'
-  - source: hugo-blox/blox/bootstrap
+  - source: hugo-blox-builder/modules/blox-bootstrap
     target: layouts/partials/blocks/
     includeFiles: '**.html'
   - source: hugo-blox/blox/all-access
