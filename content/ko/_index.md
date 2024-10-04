@@ -263,7 +263,8 @@ sections:
           - publication
         featured_only: true
     design:
-      view: article-grid
+      # view: article-grid
+      view: community/custom_card
       columns: 2
   - block: collection
     content:
@@ -310,8 +311,8 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      # view: date-title-summary
-      view: community/custom_card
+      view: date-title-summary
+      # view: community/custom_card
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
