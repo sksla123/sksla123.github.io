@@ -41,9 +41,8 @@ sections:
           <style>
             #tile_map {
               /* 지도의 크기를 설정 */
-              width: 100%;
-              height: 100%;
-              position: absolute;
+              width: 500px;
+              height: 500px;
             }
           </style>
 ---
