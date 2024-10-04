@@ -22,7 +22,7 @@ sections:
         text: |-
           <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-          <div id="map"></div>
+          <div id="tile_map"></div>
           <script>
             // Leaflet 초기화
             var map = L.map('map').setView({lon: 35.84601324617979, lat: 127.13444961966684}, 13);
@@ -39,7 +39,7 @@ sections:
             L.marker({lon: 35.84601324617979, lat: 127.13444961966684}).bindPopup('전북대학교 공학대학, 7호관 601호').addTo(map);
           </script>
           <style>
-            #map {
+            #tile_map {
               /* 지도의 크기를 설정 */
               width: 100%;
               height: 100%;
