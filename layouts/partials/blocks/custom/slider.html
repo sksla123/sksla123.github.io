@@ -8,7 +8,7 @@
 {{ $hash_id := .wcIdentifier }}
 {{ $slide_count := len $block.content.slides }}
 
-<!-- Indicators -->
+<!-- Indicators --/>
 {{ if gt $slide_count 1 }}
 <ol class="carousel-indicators">
   {{ range $index, $item := $block.content.slides }}
@@ -18,7 +18,7 @@
 {{ end }}
 
 
-<!-- Carousel slides wrapper --/>
+</!-- Carousel slides wrapper --/>
 <div class="carousel-inner">
   {{ range $index, $item := $block.content.slides }}
 
