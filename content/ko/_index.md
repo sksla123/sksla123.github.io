@@ -39,7 +39,8 @@ sections:
         현재는 Sparse Retrieval, Dense Retrieval에 활용하는 여러 모델 들을 응용 및 활용해보려 하고 있다.
     design:
       columns: '1'
-  - block: custom/slider
+  - block: 
+    blox: custom/slider
     content:
       slides:
       - title: <span style="font-size:70%">Recruit</span>
