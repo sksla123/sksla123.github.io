@@ -9,7 +9,8 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: ../blox/resume-biography-3
+  - block:
+    - name: ../blox/resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
