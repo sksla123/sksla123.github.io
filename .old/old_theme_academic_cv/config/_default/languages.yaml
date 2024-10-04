@@ -8,7 +8,7 @@ ko:
   contentDir: content/ko
 
 # Uncomment the lines below to configure your website in a second language.
-en:
- languageCode: en-us
- contentDir: content/en
+# en:
+#  languageCode: en-us
+#  contentDir: content/en
 
