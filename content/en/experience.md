@@ -10,8 +10,7 @@ design:
 
 # Page sections
 sections:
-  - block:
-    - name: ../blox/resume-experience
+  - block: resume-experience
     content:
       username: admin
     design:
@@ -19,20 +18,17 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: 
-    - name: ../blox/resume-skills
+  - block: resume-skills
     content:
       title: Skills & Hobbies
       username: admin
     design:
       show_skill_percentage: false
-  - block: 
-    - name: ../blox/resume-awards
+  - block: resume-awards
     content:
       title: Awards
       username: admin
-  - block: 
-    - name: ../blox/resume-languages
+  - block: resume-languages
     content:
       title: Languages
       username: admin
