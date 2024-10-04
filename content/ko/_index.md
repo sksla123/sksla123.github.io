@@ -10,6 +10,8 @@ sections:
       title: Biography
       username: "admin"  # 여기에서 admin을 지정
     design:
+      font:
+        color: white
       background:
         image: 
           filename: stacked-peaks_blue.svg
