@@ -152,6 +152,6 @@ Save your spreadsheet as a CSV file in your page's folder and then render it by 
 
 renders as
 
-{{< table path="../../../ko/post/data-visualization/results.csv" header="true" caption="Table 1: My results" >}}
+{{< table path="../../en/post/data-visualization/results.csv" header="true" caption="Table 1: My results" >}}
 
 ## Did you find this page helpful? Consider sharing it 🙌
