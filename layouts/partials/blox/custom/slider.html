@@ -8,6 +8,33 @@
 <div id="{{ $hash_id }}" class="relative w-full" data-carousel="slide">
     <div class="relative h-[{{ $block.design.slide_height }}] overflow-hidden rounded-lg">
         {{ range $index, $item := $block.content.slides }}
+          {{ $style_bg := "" }}
+          {{ $style_filter := "" }}
+
+          {{with $block.design.slide_height}}
+            {{ $style_bg = printf "%s height: %s;" $style_bg . }}
+          {{end}}
+
+          {{ $bg := $item.background}}
+          {{ with $bg.color }}
+            {{ $style_bg = printf "%s background-color: %s;" $style_bg (. | default "transparent") }}
+          {{ end }}
+
+          {{ if and $bg.gradient_start $bg.gradient_end }}
+            {{ $angle := string $bg.gradient_angle | default "90" }}
+            {{ $style_bg = printf "%sbackground-image: linear-gradient(%sdeg, %s, %s);" $style_bg $angle $bg.gradient_start $bg.gradient_end }}
+          {{ end }}
+          {{ if $bg.image.filename }}
+            {{ $bg_img := resources.Get (printf "media/%s" $bg.image.filename) }}
+            {{ if $bg_img }}
+              {{ $style_bg = printf "%sbackground-image: url('%s'); background-repeat: no-repeat; background-position: %s; background-size: %s; " $style_bg $bg_img.Permalink ($bg.image.position | default "center") ($bg.image.size | default "cover") }}
+            {{ else }}
+              {{ errorf "Couldn't find `%s` in the `assets/media/` folder - please add it." $bg.image.filename }}
+            {{ end }}
+            {{ with $bg.image.filters.brightness }}
+              {{ $style_filter = printf "%s-webkit-backdrop-filter: brightness(%s); backdrop-filter: brightness(%s);" $style_filter (string .) (string .) }}
+            {{ end }}
+          {{ end }}
         <div class="hidden duration-700 ease-in-out {{if eq $index 0}}block{{else}}hidden{{end}}" data-carousel-item>
             <img src="{{ with $item.background.image.filename }}{{ . | relURL }}{{ end }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="{{ $item.title }}">
             <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
