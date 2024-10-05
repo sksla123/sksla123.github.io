@@ -10,6 +10,14 @@ sections:
       title: Contact Me
       email: pjy010608@naver.com
       phone: 010-8860-6073
+    address:
+        street: 전북대학교 공과대학 7호관 601호
+        city: 전주시
+        region: 전라북도
+        postcode: '54896'
+        country: 대한민국
+        country_code: KO
+
   - block: contact
     content:
       title: 찾아오는 길
