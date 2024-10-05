@@ -55,6 +55,8 @@ sections:
           icon_pack: fas
           text: Message
           url: /_contact    
+        background:
+          color: '#999'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '70px'
