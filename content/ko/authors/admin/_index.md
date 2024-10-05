@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 박 준 용
+title: 박준용
 
 # Full name (for SEO)
 first_name: 준용
