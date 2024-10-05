@@ -153,7 +153,7 @@ sections:
         publication_type: 'article'
     design:
       view: citation
-      columns: '3'
+      columns: '1'
 
   # - block: markdown
   #   content:
