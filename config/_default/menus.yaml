@@ -16,8 +16,12 @@ main:
     url: /#study
     weight: 11
   - name: Projects
-    url: projects
+    identifier: project
     weight: 20
+  - name: School Projects
+    parent: projects
+    url: /shcool_projects
+    weight: 21
   - name: People
     url: people
     weight: 30
