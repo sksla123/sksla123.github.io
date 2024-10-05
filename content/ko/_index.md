@@ -39,7 +39,7 @@ sections:
       slides:
       - title: 개발자
         content: 작은 코드로 큰 변화를 만들며, <br>기술로 세상을 혁신하는 개발자가 되겠습니다.
-        align: center
+        align: justify
         background:
           image:
             filename: coders.jpg
@@ -153,7 +153,7 @@ sections:
         publication_type: 'article'
     design:
       view: citation
-      columns: '1'
+      columns: '3'
 
   # - block: markdown
   #   content:
