@@ -5,18 +5,15 @@ date: 2023-06-14
 image:
   focal_point: 'center'
 
-sections:
-  - block: buttons
-    content:
-      buttons:
-        - title: Related Publication 1
-          icon: paperclip
-          icon_pack: fas
-          url: /publication/journal-article/
-        - title: Related Publication 2
-          icon: paperclip
-          icon_pack: fas
-          url: /publication/conference-paper/
+buttons:
+- title: Related Publication 1
+  icon: paperclip
+  icon_pack: fas
+  url: /publication/journal-article/
+- title: Related Publication 2
+  icon: paperclip
+  icon_pack: fas
+  url: /publication/conference-paper/
 ---
 
 TREC2023 Product Search Track 부문 참가
