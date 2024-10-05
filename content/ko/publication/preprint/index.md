@@ -31,7 +31,8 @@ links:
   icon: newspaper
   icon_pack: fas
   url: https://cooperative-plain-a05.notion.site/TREC-2024-0e456ef7f1d242b99e3d68c8fe1c51c7
-url_pdf: ''
+url_pdf: '/uploads/award1.pdf'
+icon_pdf: file-pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -60,12 +61,13 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+
+# slides: example
 
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Create your slides in Markdown - click the *Slides* button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
