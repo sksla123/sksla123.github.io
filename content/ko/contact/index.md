@@ -9,6 +9,15 @@ sections:
     content:
       title: Contact
       text: |-
+    
+      # Email form provider
+      form:
+        provider: netlify
+        formspree:
+          id:
+        netlify:
+          # Enable CAPTCHA challenge to reduce spam?
+          captcha: false
         
       # email: test@example.org
       # phone: 888 888 88 88
@@ -35,15 +44,6 @@ sections:
     
       # # Automatically link email and phone or display as text?
       # autolink: true
-    
-      # # Email form provider
-      # form:
-      #   provider: netlify
-      #   formspree:
-      #     id:
-      #   netlify:
-      #     # Enable CAPTCHA challenge to reduce spam?
-      #     captcha: false
     design:
       columns: '1'
 
