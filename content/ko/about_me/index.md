@@ -31,6 +31,7 @@ sections:
       items:
         - title: 학부연구생
           company: 전북대학교 데이터마이닝 연구실
+          company_url: https://it.jbnu.ac.kr/it/index.do
           company_logo: "JBNU_Emblem"
           date_start: "2023-04-06"
   
@@ -40,7 +41,7 @@ sections:
       items:
         - title: 전북대학교 재학
           company: 전북대학교 IT정보공학과
-          company_url: https://it.jbnu.ac.kr/it/
+          company_url: https://it.jbnu.ac.kr/it/index.do
           company_logo: "JBNU_Emblem"
           date_start: "2020-03-01"
 ---
