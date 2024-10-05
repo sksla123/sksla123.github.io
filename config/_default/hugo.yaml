@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Junyong's Blog # Website name
+title: "{{< icon name='icon.png' >}} Junyong's Blog" # Website name
 baseURL: 'https://sksla123.github.io/' # Website URL
 
 ############################
