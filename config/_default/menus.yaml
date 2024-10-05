@@ -18,10 +18,14 @@ main:
   - name: Projects
     identifier: project
     weight: 20
+  - name: Projects
+    parent: project
+    url: /other_projects
+    weight: 22
   - name: School Projects
     parent: project
     url: /school_projects
-    weight: 21
+    weight: 22
   - name: People
     url: people
     weight: 30

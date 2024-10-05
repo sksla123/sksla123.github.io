@@ -65,9 +65,9 @@ locale:
   address_format: en-us
 
 # Site features
+featuredImage: "icon.png"
 
 features:
-  featuredImage: "icon.png"
   syntax_highlighter:
     enable: false
     extra_languages:
