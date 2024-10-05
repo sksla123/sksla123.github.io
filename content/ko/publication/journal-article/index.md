@@ -1,16 +1,22 @@
 ---
-title: "An example journal article"
+title: "Search Re-ranking Through Weighted Deep Learning Model"
 authors:
+- Gi-Taek An
+- Woo-Seok Choi
 - admin
-- Robert Ford
+- Jung-Min Park
+- Kyung-Soon Lee
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- "First author"
+- "Second author, Equal contribution"
+- "Second author, Equal contribution"
+- "Third author"
+- "Fourth author"
+date: "2024-03-12T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-05-31T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,28 +24,30 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "KIPS Transactions on Software and Data Engineering"
+publication_short: "TKIPS"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: In information retrieval, queries come in various types, ranging from abstract queries to those containing specific keywords, making it a challenging task to accurately produce results according to user demands. Additionally, search systems must handle queries encompassing various elements such as typos, multilingualism, and codes. Reranking is performed through training suitable documents for queries using DeBERTa, a deep learning model that has shown high performance in recent research. To evaluate the effectiveness of the proposed method, experiments were conducted using the test collection of the Product Search Track at the TREC 2023 international information retrieval evaluation competition. In the comparison of NDCG performance measurements regarding the experimental results, the proposed method showed a 10.48% improvement over BM25, a basic information retrieval model, in terms of search through query error handling, provisional relevance feedback-based product title-based query expansion, and reranking according to query types, achieving a score of 0.7810.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This study proposes a method for reranking search results in information retrieval using DeBERTa, addressing challenges like typos, multilingual queries, and codes. Experiments with TREC 2023 Product Search Track data show a 10.48% improvement in NDCG over BM25, with a final score of 0.7810, demonstrating the effectiveness of query error handling, query expansion, and reranking based on query types.
 
 tags:
 - Source Themes
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+links:
+- name: PDF
+  icon: file-pdf
+  icon_pack: fas
+  url: https://tkips.kips.or.kr/digital-library/manuscript/file/90898/03-24M-05-010R-%EC%95%88%EA%B8%B0%ED%83%9D_221-226.pdf
+url_pdf: ''
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://koreascience.or.kr/article/JAKO202416957711310.page'
 url_video: ''
 
 # Featured image

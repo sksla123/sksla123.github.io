@@ -31,9 +31,7 @@ links:
   icon: newspaper
   icon_pack: fas
   url: https://cooperative-plain-a05.notion.site/TREC-2024-0e456ef7f1d242b99e3d68c8fe1c51c7
-url_pdf: '/uploads/award1.pdf'
-icon_pdf: file-pdf
-icon_pack_pdf: fas
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
