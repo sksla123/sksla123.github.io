@@ -82,7 +82,7 @@ sections:
   
   - block: collection
     content:
-      title: My Projects <br><br>
+      title: School Projects <br><br>
       subtitle: ""
       text:
       count: 5
@@ -94,7 +94,7 @@ sections:
         tag: ''
       offset: 0
       order: desc
-      page_type: projects
+      page_type: school_projects
     design:
       view: card
       columns: '1'
