@@ -1,7 +1,7 @@
 ---
-title: 환경 문제 해결을 위한 SW 개발(피우다 프로젝트)
-subtitle: ICT CoC 공모전
-date: 2024-12-06
+title: 환경 문제 해결을 위한 SW 개발 참여
+subtitle: ICT CoC 공모전 피우다 프로젝트 
+date: 2024-09-18
 image:
   focal_point: 'center'
 ---
