@@ -10,6 +10,12 @@ sections:
       title: Contact Me
       email: pjy010608@naver.com
       phone: 010-8860-6073
+      link:
+          icon: paper-plane
+          icon_pack: fas
+          text: Message
+          text-color: '#000'
+          url: _contact
       
   - block: contact
     content:
