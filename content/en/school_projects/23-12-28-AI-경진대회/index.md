@@ -1,46 +1,39 @@
 ---
-title: CLIP을 이용한 확산 생성 모델 샘플링
-subtitle: 2023 인공지능(AI)프로젝트 발표회
+title: Sampling with Diffusion Generative Models Using CLIP
+subtitle: 2023 Artificial Intelligence (AI) Project Presentation
 date: 2023-12-28
 image:
   focal_point: 'center'
 ---
 
-diffusion model을 학습시키고 이를 이용해 텍스트로 부터 이미지를 생성해내는 프로젝트를 진행해보았다. 
+I worked on a project that involved training a diffusion model to generate images from text.
 
 <!--more-->
 
-**Diffusion Model을 활용한 이미지 생성 프로젝트**
+**Image Generation Project Using Diffusion Model**
 
-최근에 Diffusion Model을 학습시키고, 이를 이용해 텍스트로부터 이미지를 생성해내는 프로젝트를 진행해보았습니다. Diffusion Model은 기존 데이터에 노이즈를 조금씩 더해가면서 완전한 노이즈가 될 때까지의 과정을 학습해요. 이 과정을 forward process라고 부르며, 이 과정 덕분에 모델은 𝑥_𝑡−1과 𝑥_𝑡 사이의 𝑞 값을 학습하게 됩니다.
+Recently, I worked on a project that involved training a Diffusion Model to generate images from text. The Diffusion Model learns the process of gradually adding noise to existing data until it becomes complete noise. This process is called the forward process, and it allows the model to learn the 𝑞 values between 𝑥_𝑡−1 and 𝑥_𝑡.
 
-
-
-이제 샘플링 과정에서는 학습된 𝑞값을 사용해 𝑝값을 유추하는 reverse process를 통해 이미지를 생성하게 되죠. 그런데 여기서 생성되는 이미지는 랜덤한 이미지이기 때문에 사용자가 원하는 이미지를 만들기 위해서는 추가적인 기법이 필요합니다. 이처럼 Diffusion Sampling은 모델을 활용한 샘플링을 뜻해요.
+In the sampling process, images are generated through the reverse process, where the learned 𝑞 values are used to infer 𝑝 values. However, the generated images are random, so additional techniques are required to create images that align with user preferences. Thus, Diffusion Sampling refers to the sampling process that utilizes the model.
 
 
 
-**사용자가 원하는 이미지를 생성하는 방법**
+**How to generate an image that the user wants**
 
-Diffusion Model에서 사용자가 원하는 사진을 만들어내는 주된 방법은 guidance를 활용하는 것이에요. 이 방식은 reverse process 과정에서 𝑦라고 하는 사용자가 원하는 이미지에 대한 정보를 추가로 부여함으로써 모델이 생성하는 이미지가 사용자가 원하는 형태에 가깝게 되도록 돕습니다.
+In the Diffusion Model, the primary method for generating images that meet user expectations is through the use of guidance. This approach involves providing additional information, represented as 𝑦, about the desired image during the reverse process. By doing so, it helps the model generate images that more closely align with what the user envisions.
 
-
-
-
-제 프로젝트에서는 CLIP을 Diffusion 모델의 classifier로 사용했고, 𝑦로 각 클래스에 대한 임베딩 값을 샘플링했습니다. 예를 들어 “white and red car”라는 값을 𝑦로 줬을 때의 샘플링 결과를 살펴보니, “white and red car”에 대한 정보가 제대로 담겨져 있지 않음을 확인할 수 있었어요. 왜 그런 결과가 나왔을까요? 원인을 아래의 세 가지로 분석했습니다:
+In my project, I used CLIP as the classifier for the Diffusion model and sampled the embedding values for each class as 𝑦. For example, when I input "white and red car" as 𝑦 and observed the sampling result, I noticed that the information about the "white and red car" was not properly reflected. Why did such a result occur? I analyzed the cause based on the following three reasons:
 
 
 
-
-CLIP/Diffusion Model의 잘못된 학습
-
-
-데이터 셋의 특성상 구도에 따라 차 색깔이 고정됨
+Incorrect training of the CLIP/Diffusion Model
 
 
-Diffusion 모델과 CLIP의 이미지 크기가 다름
+The car's color is fixed depending on the composition due to the characteristics of the dataset
 
+
+The image sizes of the Diffusion model and CLIP are different
 
 
 
-이렇게 프로젝트를 진행하며 여러 가지를 배우고, 또 실험을 통해 문제를 해결해 나가는 과정이 정말 흥미로웠습니다. 앞으로도 더 발전시킬 수 있도록 노력하려합니다.<br><br>
+It has been truly fascinating to learn various things while working on this project and solving problems through experiments. I plan to keep working hard to further develop it in the future.

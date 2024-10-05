@@ -48,7 +48,7 @@ sections:
           icon: paper-plane
           icon_pack: fas
           text: Message
-          url: /_contact    
+          url: /en/_contact    
         background:
           color: '#999'
     design:

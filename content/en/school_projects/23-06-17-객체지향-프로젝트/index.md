@@ -1,41 +1,43 @@
 ---
-title: 줄다리기 게임 만들기
-subtitle: 객체지향 팀 프로젝트 - 게임만들기
+title: Creating a Tug-of-War Game
+subtitle: Object-Oriented Team Project - Game Development
 date: 2023-06-17
 image:
   focal_point: 'center'
 ---
 
-유행하는 드라마 오징어 게임에서 나온 줄다리기에 영감을 받아 줄다리기 게임을 만들어보았다.
+
+Inspired by the popular drama Squid Game, I created a tug-of-war game.
 
 <!--more-->
 
-**프로젝트 개발 배경**
-
-
-처음에 구상했던 프로젝트는 MBTI를 기반으로 한 캐릭터 키우기 게임이었어요. 이 게임의 핵심은 다양한 이벤트가 발생하는 것이었는데, 개발하면서 이벤트를 효과적으로 구현하는 데 어려움을 겪을 것 같더라고요. 그래서 팀원들과 협의한 끝에 주제를 변경하기로 했습니다.
+**Project Development Background**
 
 
 
-그 결과 오징어 게임을 모티브로 한 미니게임 아이디어가 떠올랐죠. 하지만 여러 미니게임을 만들기에는 팀원들의 능력 수준을 고려했을 때 무리가 있다는 것을 깨달았어요. 그래서 다시 논의한 후, 오징어 게임의 줄다리기 장면을 기반으로 한 줄다리기 게임을 최종 주제로 선정하게 되었습니다.
+Initially, the project I envisioned was a character development game based on MBTI. The core of this game was to have various events occur, but I realized that implementing these events effectively would pose challenges during development. After discussions with my team members, we decided to change the theme.
 
 
 
-**게임 설명**
-
-
-사용자는 게임 시작 시 Single Mode 또는 Multi Mode를 선택할 수 있어요.
-
-게임은 스페이스바를 눌러 밧줄을 당기는 방식으로 진행됩니다.
-
-상대 팀보다 더 많이 밧줄을 당기는 팀이 승리하게 되죠.
-
-게임 중에는 피버 게이지와 목숨이 변동하며, 게임 진행 상황에 따라 실시간으로 표시됩니다.
+As a result, we came up with the idea of mini-games inspired by Squid Game. However, considering the skill levels of the team members, we realized that creating multiple mini-games would be too ambitious. After further discussions, we ultimately decided to focus on developing a tug-of-war game based on the tug-of-war scene from Squid Game.
 
 
 
+**Description**
 
-**어려웠던 점**
+
+Users can choose either Single Mode or Multi Mode at the start of the game.
+
+The gameplay involves pulling the rope by pressing the spacebar.
+
+The team that pulls the rope more than the opposing team wins.
+
+During the game, the fever gauge and lives fluctuate and are displayed in real-time based on the game progress.
 
 
-애니메이션과 멀티 플레이를 제공하는 과정이 정말 어려웠어요. 다양한 요소를 조합하고 최적화하는 데 많은 시간과 노력이 필요했습니다. 그럼에도 불구하고, 이 과정에서 많은 것을 배우고 성장할 수 있었던 것 같습니다.
+
+
+**Difficulties**
+
+
+Providing animations and multiplayer functionality was really challenging. It required a lot of time and effort to combine and optimize various elements. Despite the difficulties, I believe I learned a great deal and grew during this process.

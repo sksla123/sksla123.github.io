@@ -25,7 +25,7 @@ sections:
   - block: markdown
     id: study
     content:
-      title: <br> 📚 나의 공부 방향
+      title: 📚 나의 공부 방향
       subtitle: ''
       text: |-
         나는 자연어 처리 및 정보 검색 분야에 많은 관심을 가지고 있다. 
