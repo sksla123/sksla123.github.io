@@ -48,7 +48,7 @@ sections:
           position: center
           color: '#666'
       - title: 자연어 처리
-        content: 언어의 경계를 허물고, <br>사람과 기계의 소통을 자연스럽게 이어주는 NLP 전문가를 꿈꿉니다.
+        content: 사람과 기계 사이의 언어의 경계를 허물어, <br>기계와의 소통을 자연스럽게 이어주는 NLP 전문가를 꿈꿉니다.
         align: justify
         background:
           image:
@@ -146,6 +146,7 @@ sections:
     content:
       title: Latest Publications
       text: ""
+      align: center
       count: 5
       filters:
         folders:
