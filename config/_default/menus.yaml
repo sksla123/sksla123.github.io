@@ -5,9 +5,17 @@
 
 main:
   - name: Home
-    url: 
+    identifier: home 
     weight: 10
-  - name: News
+  - name: bio
+    parent: home
+    url: /#bio
+    weight: 11
+  - name: study
+    parent: home
+    url: /#study
+    weight: 11
+  - name: Projects
     url: post
     weight: 20
   - name: People

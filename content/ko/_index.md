@@ -6,6 +6,7 @@ type: landing
 
 sections:
   - block: about.biography
+    id: bio
     content:
       title: <br> Biography<br><br>
       username: "admin"  # 여기에서 admin을 지정
@@ -22,6 +23,7 @@ sections:
           size: cover
       
   - block: markdown
+    id: study
     content:
       title: <br> 📚 나의 공부 방향
       subtitle: ''
