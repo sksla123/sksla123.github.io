@@ -1,5 +1,5 @@
 ---
-title: School Projects
+title: Other Projects
 
 # Listing view
 view: compact
