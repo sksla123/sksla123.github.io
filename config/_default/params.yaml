@@ -40,6 +40,9 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
+    logo:
+      text: ""
+      filename: "icon.png"
 
 # Site footer
 
