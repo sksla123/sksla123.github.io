@@ -67,6 +67,7 @@ locale:
 # Site features
 
 features:
+  featuredImage: "icon.png"
   syntax_highlighter:
     enable: false
     extra_languages:
