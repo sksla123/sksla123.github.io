@@ -41,8 +41,8 @@ sections:
     content:
       title: My Goal
       slides:
-      - title: ''
-        content: ''
+      - title: 메세지 보내기
+        content: 아래 버튼을 눌러 메세지를 보낼 수 있습니다.
         align: center
         link:
           icon: paper-plane
@@ -52,7 +52,7 @@ sections:
         
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '100px'
+      slide_height: '200px'
       is_fullscreen: false
 
   # - block: contact
