@@ -118,7 +118,7 @@ sections:
       order: desc
       page_type: other_projects
     design:
-      view: card
+      view: community/custom_card_max_width_600
       columns: '1'
 
   # - block: markdown
