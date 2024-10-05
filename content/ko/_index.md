@@ -183,9 +183,9 @@ sections:
       filters:
         folders:
           - publication
-        publication_type: 'article'
+        # publication_type: 'article'
     design:
-      view: citation
+      view: community/custom_citation_card
       columns: '1'
 
   # - block: markdown
