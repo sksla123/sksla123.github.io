@@ -41,25 +41,19 @@ sections:
     content:
       title: My Goal
       slides:
-      - title: 개발자
-        content: 작은 코드로 큰 변화를 만들며, 기술로 세상을 혁신하는 개발자가 되겠습니다.
-        align: justify
-        background:
-          image:
-            filename: coders.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#666'
-      
+      - title: ''
+        content: ''
+        align: center
+        link:
+          icon: paper-plane
+          icon_pack: fas
+          text: Message
+          url: _contact
+        
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '100px'
+      slide_height: '250px'
       is_fullscreen: false
-      # Automatically transition through slides?
-      loop: true
-      # Duration of transition between slides (in ms)
-      interval: 2000
 
   # - block: contact
   #   content:
