@@ -16,7 +16,7 @@ main:
     url: /#study
     weight: 11
   - name: Projects
-    url: post
+    url: projects
     weight: 20
   - name: People
     url: people
