@@ -1,13 +1,12 @@
 ---
 title: Contact
 date: 2022-10-24
-
-type: landing
-
 # Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
   image: 'contact.jpg'
+
+type: landing
 
 sections:
   - block: contact
