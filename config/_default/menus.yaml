@@ -17,16 +17,17 @@ main:
     weight: 12
   - name: School Projects
     parent: home
-    url: /#schoolProject
+    url: /#project1
     weight: 13
   - name: Other Projects
     parent: home
-    url: /#otherProject
+    url: /#project2
     weight: 14
   - name: Latest Publications
     parent: home
     url: /#print
     weight: 15
+
   - name: Projects
     identifier: project
     weight: 20

@@ -81,7 +81,7 @@ sections:
       interval: 2000
   
   - block: collection
-    id: schoolProject
+    id: project1
     content:
       title: School Projects <br><br>
       subtitle: ""
@@ -101,7 +101,7 @@ sections:
       columns: '1'
 
   - block: collection
-    id: otherProject
+    id: project2
     content:
       title: Other Projects <br><br>
       subtitle: ""
