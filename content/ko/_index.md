@@ -54,7 +54,7 @@ sections:
           image:
             filename: NLP.jpg
             filters:
-              brightness: 0.7
+              brightness: 0.5
           position: center
           color: '#555'
       - title: 정보 검색
@@ -72,6 +72,32 @@ sections:
         #   icon_pack: fas
         #   text: Join Us
         #   url: ../contact/
+      - title: 언어 모델
+        content: 인간의 언어적 사고를 재현하는 <br>언어 모델 개발에 기여하고 싶습니다.
+        align: justify
+        background:
+          image:
+            filename: LLM.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+      - title: 기계 학습
+        content: 끊임없는 학습을 통해 기계가 스스로 진화하도록 이끌고, <br>더 나은 미래를 위한 인공지능 모델을 만들고 싶습니다."
+        align: justify
+        background:
+          image:
+            filename: ML.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+        # link:
+        #   icon: graduation-cap
+        #   icon_pack: fas
+        #   text: Join Us
+        #   url: ../contact/
+      
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
