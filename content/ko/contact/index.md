@@ -59,7 +59,7 @@ sections:
           color: '#999'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '70px'
+      slide_height: '80px'
       is_fullscreen: false
 
   # - block: contact
