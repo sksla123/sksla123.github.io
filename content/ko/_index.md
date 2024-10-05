@@ -7,14 +7,14 @@ type: landing
 sections:
   - block: about.biography
     content:
-      title: Biography <br>
+      title: Biography <br><br>
       username: "admin"  # 여기에서 admin을 지정
     design:
       font:
         color: white
       background:
         image: 
-          filename: stacked-peaks_blue.svg
+          filename: stacked-peaks_lightblue.svg
           filters:
             brightness: 1
           parallax: false
