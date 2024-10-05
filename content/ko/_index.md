@@ -21,6 +21,12 @@ sections:
           position: center
           size: cover
 
+  - block: markdown
+    content:
+      title: 
+      subtitle: ''
+      text: 
+
   - block: slider
     content:
       slides:
@@ -35,7 +41,7 @@ sections:
           position: right
           color: '#666'
       - title: 자연어 처리
-        content: 언어의 경계를 허물고, <br>사람과 기계의 소통을 자연스럽게 이어주는 NLP 전문가를 꿈꿉니다.
+        content: 언어의 경계를 허물고, <br>사람과 기계의 소통을 자연스럽게 이어주는<br>NLP 전문가를 꿈꿉니다.
         align: center
         background:
           image:
