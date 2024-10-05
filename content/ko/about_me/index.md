@@ -31,7 +31,8 @@ sections:
       items:
         - title: 학부연구생
           company: 전북대학교 데이터마이닝 연구실
-          company_url: https://it.jbnu.ac.kr/it/index.do
+          # # 현재 정보마이닝연구실 랩 사이트를 저장하지 않았기 때문에 아래 링크로 대체
+          # company_url: https://csai.jbnu.ac.kr/csai/29031/subview.do?enc=Zm5jdDF8QEB8JTJGamJudVByb2ZsJTJGY3NhaSUyRjc4NyUyRjYzNjclMkZhcnRjbFZpZXcuZG8lM0ZwYWdlJTNEMSUyNmZpbmRUeXBlJTNEJTI2ZmluZFdvcmQlM0QlMjY%3D
           company_logo: "JBNU_Emblem"
           date_start: "2023-04-06"
   
