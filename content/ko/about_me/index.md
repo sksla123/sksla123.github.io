@@ -49,7 +49,6 @@ sections:
   - block: accomplishments
     content:
       title: Awards & Achievements
-      date_format: "Jan 2006"
       items:
         - title: 2023년 한국디지털콘텐츠학회 추계종합학술대회 대학생 논문경진대회 발표논문 은상
           organization: 한국디지털콘텐츠학회
@@ -58,5 +57,5 @@ sections:
           icon_pack: fas
           date_start: "2023-05-01"
           description: "Received the Best Paper Award for groundbreaking AI research."
-          certificate_url: "/uploads/award1.pdf"
+          certificate_url: /uploads/award1.pdf
   ---
