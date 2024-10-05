@@ -82,8 +82,8 @@ sections:
   
   - block: collection
     content:
-      title: My Projects<br><br>
-      subtitle:
+      title: My Projects
+      subtitle: ""
       text:
       count: 5
       filters:
