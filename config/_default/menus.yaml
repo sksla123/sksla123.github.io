@@ -19,7 +19,7 @@ main:
     identifier: project
     weight: 20
   - name: School Projects
-    parent: projects
+    parent: project
     url: /shcool_projects
     weight: 21
   - name: People
