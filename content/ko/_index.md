@@ -98,7 +98,7 @@ sections:
       order: desc
       page_type: school_projects
     design:
-      view: community/custom_card_max_width_400
+      view: community/custom_card_max_width_600
       columns: '1'
 
   - block: collection
