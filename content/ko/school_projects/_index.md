@@ -8,6 +8,7 @@ view: compact
 banner:
   caption: ''
   image: 'project.jpg'
-    focal_point: 'center'
+  image:
+    focal_point: 'bottom'
   citation: Unsplash의 Vitaly Gariev
 ---
