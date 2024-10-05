@@ -1,3 +1,5 @@
+{{/* 카드를 가운데 정렬 */}}
+<div class="card-container" style="display: flex; justify-content: center; flex-wrap: wrap;"></div>
 {{ $item := .item }}
 
 {{/* Dynamic view adjusts to content type. */}}
@@ -20,15 +22,7 @@
   {{ $summary = $item.Summary }}
 {{ end }}
 
-<style>
-  .card-container {
-    display: flex;            /* Flexbox 사용 */
-    flex-wrap: wrap;         /* 카드가 자동으로 아래로 넘어가도록 설정 */
-    gap: 16px;               /* 카드 사이의 간격 */
-  }
-</style>
 
-<div class="card-container">
   {{/* 카드의 괄호 최대길이 400px로 제한 */}}
   <div class="card-simple view-card" style="max-width: 400px;">
 
@@ -81,6 +75,5 @@
       {{ partial "page_links" (dict "page" $item "is_list" 1) }}
     </div>
     {{ end }}
-
   </div>
 </div>
