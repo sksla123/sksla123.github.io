@@ -8,7 +8,7 @@ sections:
   - block: about.biography
     id: bio
     content:
-      title: <br> Biography<br><br>
+      title: Biography
       username: "admin"  # 여기에서 admin을 지정
     design:
       font:
@@ -28,10 +28,6 @@ sections:
       title: <br> 📚 나의 공부 방향
       subtitle: ''
       text: |-
-        
-        
-
-        
         나는 자연어 처리 및 정보 검색 분야에 많은 관심을 가지고 있다. 
         
 
