@@ -53,7 +53,7 @@ sections:
         - title: 2023년 한국디지털콘텐츠학회 추계종합학술대회 대학생 논문경진대회 발표논문 은상
           organization: 한국디지털콘텐츠학회
           organization_url: https://dcs.or.kr/
-          icon: fa-award
+          icon: medal
           icon_pack: fas
           date_start: "2023-05-01"
           description: "위 논문은 2023년 한국디지털콘텐츠학회 추계종합학술대회대학생 논문경진대회 발표논문 중 은상 논문으로 선정되어 이 상을 수여함"
