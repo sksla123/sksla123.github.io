@@ -4,12 +4,17 @@ date: 2022-10-24
 
 type: landing
 
+# Optional banner image (relative to `assets/media/` folder).
+banner:
+  caption: ''
+  image: 'contact.jpg'
+
 sections:
   - block: contact
     content:
       title: Contact Me
       email: pjy010608@naver.com
-      phone: 010 8860 6073
+      phone: 010-8860-6073
       address:
         street: 전북대학교 공과대학 7호관 601호
         city: 전주시
@@ -42,23 +47,23 @@ sections:
     design:
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: contact.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle: ''
+  #     text:
+  #   design:
+  #     columns: '1'
+  #     background:
+  #       image: 
+  #         filename: contact.jpg
+  #         filters:
+  #           brightness: 1
+  #         parallax: false
+  #         position: center
+  #         size: cover
+  #         text_color_light: true
+  #     spacing:
+  #       padding: ['20px', '0', '20px', '0']
+  #     css_class: fullscreen
 ---
