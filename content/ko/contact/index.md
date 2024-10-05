@@ -48,7 +48,7 @@ sections:
           icon: paper-plane
           icon_pack: fas
           text: Message
-          url: _contact
+          url: /_contact
         
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')

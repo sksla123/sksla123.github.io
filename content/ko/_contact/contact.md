@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 50
 
-title: Get in touch
-subtitle:
+title: 메세지 보내기
+subtitle: 
 
 content:
   # Automatically link email and phone or display as text?
