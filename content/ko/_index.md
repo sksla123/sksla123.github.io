@@ -26,7 +26,6 @@ sections:
       title:
       text:
 
-
   - block: slider
     content:
       slides:
@@ -40,31 +39,31 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
+      - title: 자연어 처리
+        content: 언어의 경계를 허물고, 사람과 기계의 소통을 자연스럽게 이어주는 NLP 전문가를 꿈꿉니다.
+        align: center
         background:
           image:
-            filename: contact.jpg
+            filename: NLP.jpg
             filters:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
-        align: right
+      - title: 정보 검색
+        content: 방대한 데이터 속에서 가치를 찾아내는, 스마트한 정보 탐색의 선두주자가 되겠습니다.
+        align: center
         background:
           image:
-            filename: welcome.jpg
+            filename: IR.jpeg
             filters:
               brightness: 0.5
           position: center
           color: '#333'
-        link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          url: ../contact/
+        # link:
+        #   icon: graduation-cap
+        #   icon_pack: fas
+        #   text: Join Us
+        #   url: ../contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
