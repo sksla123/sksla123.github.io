@@ -35,7 +35,7 @@ sections:
     content:
       slides:
       - title: 새내기 개발자
-        content: 작은 코드로 큰 변화를 만들며, 기술로 세상을 혁신하는 개발자가 되겠습니다.
+        content: 작은 코드로 큰 변화를 만들며, <br>기술로 세상을 혁신하는 개발자가 되겠습니다.
         align: center
         background:
           image:
@@ -45,7 +45,7 @@ sections:
           position: right
           color: '#666'
       - title: 자연어 처리
-        content: 언어의 경계를 허물고, 사람과 기계의 소통을 자연스럽게 이어주는 NLP 전문가를 꿈꿉니다.
+        content: 언어의 경계를 허물고, <br>사람과 기계의 소통을 자연스럽게 이어주는 NLP 전문가를 꿈꿉니다.
         align: center
         background:
           image:
@@ -55,7 +55,7 @@ sections:
           position: center
           color: '#555'
       - title: 정보 검색
-        content: 방대한 데이터 속에서 가치를 찾아내는, 스마트한 정보 탐색의 선두주자가 되겠습니다.
+        content: 방대한 데이터 속에서 가치를 찾아내는, <br>스마트한 정보 탐색의 선두주자가 되겠습니다.
         align: center
         background:
           image:
