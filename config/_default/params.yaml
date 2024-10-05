@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: Earth
-  theme_night: Earth
+  theme_night: Minimal
   font: Cyberpunk
   font_size: L
 
