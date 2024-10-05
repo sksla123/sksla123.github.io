@@ -36,23 +36,28 @@ sections:
   #         icon: paper-plane
   #         icon_pack: fas
   #         url: _contact
+  
+  - block: markdown
+    content: 
+      title: 메세지 보내기
+      subtitle: 아래 버튼을 눌러 메세지를 보낼 수 있습니다. 
+  
 
   - block: slider
     content:
       title: My Goal
       slides:
-      - title: 메세지 보내기
-        content: 아래 버튼을 눌러 메세지를 보낼 수 있습니다.
+      - title: ''
+        content: ''
         align: center
         link:
           icon: paper-plane
           icon_pack: fas
           text: Message
-          url: /_contact
-        
+          url: /_contact    
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '200px'
+      slide_height: '70px'
       is_fullscreen: false
 
   # - block: contact
