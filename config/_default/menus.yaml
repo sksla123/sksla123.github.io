@@ -38,15 +38,12 @@ main:
     parent: project
     url: /other_projects
     weight: 22
-  - name: People
-    url: people
-    weight: 30
-  - name: Events
-    url: event
-    weight: 40
   - name: Publications
     url: publication
-    weight: 50
+    weight: 30
+  - name: About Me
+    url: /about_me
+    weight: 40
   - name: Contact
     url: contact
-    weight: 60
+    weight: 50
