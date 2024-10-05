@@ -1,5 +1,5 @@
 ---
-title: Projects<br>
+title: Projects
 
 # Listing view
 view: compact

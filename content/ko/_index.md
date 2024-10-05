@@ -82,7 +82,7 @@ sections:
   
   - block: collection
     content:
-      title: My Projects
+      title: My Projects <br><br>
       subtitle: ""
       text:
       count: 5
