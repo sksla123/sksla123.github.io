@@ -58,7 +58,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Developer
 ---
 
 현 전북대학교 IT정보공학과 재학생으로, 데이터마이닝 연구실의 학부연구생이다. 현재는 BERT, GPT 등 여러 LLM 모델에 관심을 가지고 공부하고 있으며, 자연어 처리, 정보 검색과 관련된 프로젝트를 진행해보고 있다. 
