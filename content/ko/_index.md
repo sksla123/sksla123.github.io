@@ -99,7 +99,7 @@ sections:
       page_type: school_projects
     design:
       view: community/custom_card_max_width_600
-      columns: '1'
+      columns: '3'
 
   - block: collection
     id: project2
@@ -119,7 +119,7 @@ sections:
       page_type: other_projects
     design:
       view: community/custom_card_max_width_600
-      columns: '1'
+      columns: '3'
 
   # - block: markdown
   #   content:
@@ -146,7 +146,6 @@ sections:
     content:
       title: Latest Publications
       text: ""
-      align: center
       count: 5
       filters:
         folders:
