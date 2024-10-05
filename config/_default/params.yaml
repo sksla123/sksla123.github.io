@@ -37,7 +37,7 @@ header:
     align: r
     logo:
       # Logo text
-      text: ""
+      text: "Junyong's Blog"
       # Logo filename in `assets/media/` folder
       filename: "logo.svg"
     show_logo: true
