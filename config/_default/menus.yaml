@@ -7,24 +7,36 @@ main:
   - name: Home
     identifier: home 
     weight: 10
-  - name: bio
+  - name: Bio
     parent: home
     url: /#bio
     weight: 11
-  - name: study
+  - name: Study & Goal
     parent: home
     url: /#study
-    weight: 11
+    weight: 12
+  - name: School Projects
+    parent: home
+    url: /#schoolProject
+    weight: 13
+  - name: Other Projects
+    parent: home
+    url: /#otherProject
+    weight: 14
+  - name: Latest Publications
+    parent: home
+    url: /#print
+    weight: 15
   - name: Projects
     identifier: project
     weight: 20
-  - name: Projects
-    parent: project
-    url: /other_projects
-    weight: 22
   - name: School Projects
     parent: project
     url: /school_projects
+    weight: 21
+  - name: Other Projects
+    parent: project
+    url: /other_projects
     weight: 22
   - name: People
     url: people

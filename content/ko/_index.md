@@ -81,6 +81,7 @@ sections:
       interval: 2000
   
   - block: collection
+    id: schoolProject
     content:
       title: School Projects <br><br>
       subtitle: ""
@@ -99,6 +100,25 @@ sections:
       view: card
       columns: '1'
 
+  - block: collection
+    id: otherProject
+    content:
+      title: Other Projects <br><br>
+      subtitle: ""
+      text:
+      count: 5
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: other_projects
+    design:
+      view: card
+      columns: '1'
 
   # - block: markdown
   #   content:
@@ -121,8 +141,9 @@ sections:
   #     css_class: fullscreen
 
   - block: collection
+    id: print
     content:
-      title: Latest Preprints
+      title: Latest Publications
       text: ""
       count: 5
       filters:
