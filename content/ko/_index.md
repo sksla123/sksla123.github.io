@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: about.biography
     content:
-      title: Biography <br><br>
+      title: <br><br>Biography<br><br>
       username: "admin"  # 여기에서 admin을 지정
     design:
       font:
