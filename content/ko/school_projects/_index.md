@@ -8,5 +8,4 @@ view: compact
 banner:
   caption: ''
   image: 'unsplash/project1.jpg'
-  citation: Unsplash의 Vitaly Gariev
 ---
