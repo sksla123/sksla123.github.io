@@ -45,4 +45,13 @@ sections:
           company_url: https://it.jbnu.ac.kr/it/index.do
           company_logo: "JBNU_Emblem"
           date_start: "2020-03-01"
+
+  - block: experience
+    content:
+      title: Awards
+      items:
+        - title: 2023년 한국디지털콘텐츠학회 추계종합학술대회 대학생 논문경진대회 발표논문 은상
+          company: 한국디지털콘텐츠학회장
+          company_logo: "DCS"
+          date: "2023-11-10"
 ---
