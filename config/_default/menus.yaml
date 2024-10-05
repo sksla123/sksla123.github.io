@@ -15,11 +15,11 @@ main:
     parent: home
     url: /#study
     weight: 12
-  - name: School Projects
+  - name: Recent School Projects
     parent: home
     url: /#project1
     weight: 13
-  - name: Other Projects
+  - name: Recent Other Projects
     parent: home
     url: /#project2
     weight: 14
