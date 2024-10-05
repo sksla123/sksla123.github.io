@@ -44,6 +44,7 @@ sections:
       - title: 개발자
         content: 
           작은 코드로 큰 변화를 만들며,  
+
           기술로 세상을 혁신하는 개발자가 되겠습니다.
         align: justify
         background:
@@ -56,6 +57,7 @@ sections:
       - title: 자연어 처리
         content: 
           사람과 기계 사이의 언어의 경계를 허물어,  
+          
           기계와의 소통을 자연스럽게 이어주는 NLP 전문가를 꿈꿉니다.
         align: justify
         background:
@@ -68,6 +70,7 @@ sections:
       - title: 정보 검색
         content: 
           방대한 데이터 속에서 가치를 찾아내는,  
+          
           스마트한 정보 탐색의 선두주자가 되겠습니다.
         align: justify
         background:
@@ -85,6 +88,7 @@ sections:
       - title: 언어 모델
         content: 
           인간의 언어적 사고를 재현하는  
+          
           언어 모델 개발에 기여하고 싶습니다.
         align: justify
         background:
@@ -97,6 +101,7 @@ sections:
       - title: 기계 학습
         content: 
           끊임없는 학습을 통해 기계가 스스로 진화하도록 이끌고,  
+          
           더 나은 미래를 위한 인공지능 모델을 만들고 싶습니다.
         align: justify
         background:
