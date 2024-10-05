@@ -7,5 +7,6 @@ view: compact
 # Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
-  image: ''
+  image: 'project.jpg'
+  citation: Unsplash의 Vitaly Gariev
 ---
