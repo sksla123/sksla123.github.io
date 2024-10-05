@@ -98,8 +98,7 @@ sections:
       order: desc
       page_type: school_projects
     design:
-      view: community/custom_card
-      max_width: 400px
+      view: community/custom_card_max_width_400
       columns: '1'
 
   - block: collection

@@ -20,10 +20,9 @@
   {{ $summary = $item.Summary }}
 {{ end }}
 
-{{ $maxWidth := $design.max_width | default "100%" }}
 
-{{/* 카드의 괄호 최대길이 제한 */}}
-<div class="card-simple view-card" style="max-width: {{ $maxWidth }};">
+{{/* 카드의 괄호 최대길이 400px로 제한 */}}
+<div class="card-simple view-card" style="max-width: 400px;">
 
   {{ if eq $item.Type "event" }}
   <div class="article-metadata">
