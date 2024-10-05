@@ -7,8 +7,8 @@ view: compact
 # Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
-  image: 'project.jpg'
-  image:
+  image: 
+    filename: 'project.jpg'
     focal_point: 'bottom'
   citation: Unsplash의 Vitaly Gariev
 ---
