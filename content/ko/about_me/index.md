@@ -57,5 +57,5 @@ sections:
           icon_pack: fas
           date_start: "2023-05-01"
           description: "Received the Best Paper Award for groundbreaking AI research."
-          certificate_url: /uploads/award1.pdf
-  ---
+          certificate_url: "/uploads/award1.pdf"
+---
