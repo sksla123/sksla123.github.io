@@ -35,8 +35,9 @@ sections:
 
   - block: slider
     content:
+      title: My Goal
       slides:
-      - title: 새내기 개발자
+      - title: 개발자
         content: 작은 코드로 큰 변화를 만들며, <br>기술로 세상을 혁신하는 개발자가 되겠습니다.
         align: center
         background:
