@@ -99,7 +99,8 @@ sections:
       order: desc
       page_type: school_projects
     design:
-      view: card
+      view: custom_card
+      max_width: 400px
       columns: '1'
 
   - block: collection
