@@ -30,7 +30,6 @@ sections:
       text: |-
         <br> 나는 자연어 처리 및 정보 검색 분야에 많은 관심을 가지고 있다. <br><br> 현재는 BERT 등을 활용해 여러 문장을 비교하는 Task를 중심으로 이를 응용해 상품 검색에서 응용할 수 있는 방향도 살펴보고 있다.
         현재는 Sparse Retrieval, Dense Retrieval에 활용하는 여러 모델들을 응용 및 활용해보려 하고 있다.
-      align: justify
     design:
       columns: '1'
 
@@ -99,7 +98,7 @@ sections:
       order: desc
       page_type: school_projects
     design:
-      view: custom_card
+      view: community/custom_card
       max_width: 400px
       columns: '1'
 
