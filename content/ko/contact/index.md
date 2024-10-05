@@ -10,12 +10,6 @@ sections:
       title: Contact Me
       email: pjy010608@naver.com
       phone: 010-8860-6073
-      link:
-          icon: paper-plane
-          icon_pack: fas
-          text: Message
-          text-color: '#000'
-          url: _contact
       
   - block: contact
     content:
@@ -34,22 +28,30 @@ sections:
       autolink: true
     design:
       columns: '1'
-
-  - block: contact
+  
+  - block: buttons
     content:
-      title: 연락하기
-      text: |-
-        궁금한 것이 있으시면 언제든지 연락 주세요.
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false  
-    design:
-      columns: '1'
+      buttons:
+        - title: Read my latest paper on LLMs
+          icon: paper-plane
+          icon_pack: fas
+          url: _contact
+
+  # - block: contact
+  #   content:
+  #     title: 연락하기
+  #     text: |-
+  #       궁금한 것이 있으시면 언제든지 연락 주세요.
+  #     # Email form provider
+  #     form:
+  #       provider: netlify
+  #       formspree:
+  #         id:
+  #       netlify:
+  #         # Enable CAPTCHA challenge to reduce spam?
+  #         captcha: false  
+  #   design:
+  #     columns: '1'
 
   # - block: markdown
   #   content:
