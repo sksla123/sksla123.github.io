@@ -29,7 +29,7 @@ featured: false
 links:
 - name: 관련 보고서 링크
   icon: newspaper
-  icon: fas
+  icon_pack: fas
   url: https://cooperative-plain-a05.notion.site/TREC-2024-0e456ef7f1d242b99e3d68c8fe1c51c7
 url_pdf: ''
 url_code: ''
