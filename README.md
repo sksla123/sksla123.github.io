@@ -1,3 +1,12 @@
+# Junyong's blog
+
+## 개요
+Hugo-Blox의 Research Group Template을 기반으로 만들어진 정적 웹사이트입니다.
+
+
+
+
+
 # [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
 
 [![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
