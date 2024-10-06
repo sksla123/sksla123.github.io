@@ -120,7 +120,7 @@ Hugo-Blox의 Research Group Template을 기반으로 만들어진 정적 웹사�
 git clone https://github.com/sksla123/sksla123.github.io.git
 ```
 **레포지토리 복제:**
-지정된 workflow에 따라 깃허브에 push하게되면 자동으로 배포됩니다.
+지정된 workflow에 의해 깃허브에 push하게되면 자동으로 배포됩니다.
 
 ## 라이센스
 
