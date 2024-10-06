@@ -74,8 +74,9 @@ Hugo-Blox의 Research Group Template을 기반으로 만들어진 정적 웹사�
 
 
 **mobile website(phone)**
-![](https://github.com/sksla123/sksla123.github.io/blob/main/images/mobile.jpg)
-
+<!-- ![](https://github.com/sksla123/sksla123.github.io/blob/main/images/mobile.jpg) -->
+<br>
+<img src = "https://github.com/sksla123/sksla123.github.io/blob/main/images/mobile.jpg" width="30%" height="30%">
 
 
 **mobile website(tablet)**
