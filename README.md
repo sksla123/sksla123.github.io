@@ -3,7 +3,7 @@
 ## 개요
 Hugo-Blox의 Research Group Template을 기반으로 만들어진 정적 웹사이트입니다.
 
-![](https://github.com/sksla123/sksla123.github.io/blob/main/images/example.png)
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/light.png)
 
 > **프로젝트:** 개인 포트폴리오 사이트
 >
@@ -34,8 +34,9 @@ Hugo-Blox의 Research Group Template을 기반으로 만들어진 정적 웹사�
 
 
 **전환 방법**
+<br>
 ![](https://github.com/sksla123/sksla123.github.io/blob/main/images/day_night_conv.png)
-
+<br>
 
 우측 상단의 달 모양의 아이콘을 누르면 3개의 드랍 메뉴 중 하나를 선택할 수 있습니다.
 
@@ -60,9 +61,9 @@ Hugo-Blox의 Research Group Template을 기반으로 만들어진 정적 웹사�
 
 
 **전환 방법**
+<br>
 ![](https://github.com/sksla123/sksla123.github.io/blob/main/images/lang_conv.png)
-
-
+<br>
 우측 상단의 지구본 모양의 아이콘을 누르면 2개의 드랍 메뉴(한국어, 영어) 중 하나를 선택할 수 있습니다.
 
 ### 반응형 웹
