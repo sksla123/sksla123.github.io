@@ -35,11 +35,16 @@ header:
   navbar:
     enable: true
     align: r
+    logo:
+      # Logo text
+      text: "Junyong's Blog"
+      # Logo filename in `assets/media/` folder
+      filename: "logo.svg"
     show_logo: true
     show_language: true
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 # Site footer
 
@@ -60,6 +65,7 @@ locale:
   address_format: en-us
 
 # Site features
+featuredImage: "icon.png"
 
 features:
   syntax_highlighter:

@@ -4,21 +4,47 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
-    url: tour
+  - name: Home
+    identifier: home 
     weight: 10
-  - name: News
-    url: post
+  - name: Bio
+    parent: home
+    url: /#bio
+    weight: 11
+  - name: Study & Goal
+    parent: home
+    url: /#study
+    weight: 12
+  - name: Recent School Projects
+    parent: home
+    url: /#project1
+    weight: 13
+  - name: Recent Other Projects
+    parent: home
+    url: /#project2
+    weight: 14
+  - name: Latest Publications
+    parent: home
+    url: /#print
+    weight: 15
+
+  - name: Projects
+    identifier: project
     weight: 20
-  - name: People
-    url: people
-    weight: 30
-  - name: Events
-    url: event
-    weight: 40
+  - name: School Projects
+    parent: project
+    url: /school_projects
+    weight: 21
+  - name: Other Projects
+    parent: project
+    url: /other_projects
+    weight: 22
   - name: Publications
     url: publication
-    weight: 50
+    weight: 30
+  - name: About Me
+    url: /about_me
+    weight: 40
   - name: Contact
     url: contact
-    weight: 60
+    weight: 50

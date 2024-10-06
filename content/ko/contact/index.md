@@ -1,69 +1,94 @@
 ---
 title: Contact
-date: 2022-10-24
+# date: 2022-10-24
 
 type: landing
 
 sections:
   - block: contact
     content:
-      title: Contact
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-      email: test@example.org
-      phone: 888 888 88 88
+      title: Contact Me
+      email: pjy010608@naver.com
+      phone: 010-8860-6073
+      
+  - block: contact
+    content:
+      title: 찾아오는 길
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
+        street: 전북대학교 공과대학 7호관 601호 데이터마이닝 연구실
+        city: 전주시
+        region: 전라북도
+        postcode: '54896'
+        country: 대한민국
+        country_code: KO
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      appointment_url: 'https://calendly.com'
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
-    
+        latitude: '35.84601324617979'
+        longitude: '127.13444961966684'
       # Automatically link email and phone or display as text?
       autolink: true
-    
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
     design:
       columns: '1'
-
-  - block: markdown
+  
+  # - block: buttons
+  #   content:
+  #     buttons:
+  #       - title: 메세지 보내기
+  #         icon: paper-plane
+  #         icon_pack: fas
+  #         url: _contact
+  
+  - block: slider
     content:
-      title:
-      subtitle: ''
-      text:
+      title: button
+      slides:
+      - title: '메세지 보내기'
+        content: '아래 버튼을 눌러 메세지를 보낼 수 있습니다.'
+        align: center
+        link:
+          icon: paper-plane
+          icon_pack: fas
+          text: Message
+          url: /_contact    
+        background:
+          color: '#999'
     design:
-      columns: '1'
-      background:
-        image: 
-          filename: contact.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: '300px'
+      is_fullscreen: false
+
+  # - block: contact
+  #   content:
+  #     title: 연락하기
+  #     text: |-
+  #       궁금한 것이 있으시면 언제든지 연락 주세요.
+  #     # Email form provider
+  #     form:
+  #       provider: netlify
+  #       formspree:
+  #         id:
+  #       netlify:
+  #         # Enable CAPTCHA challenge to reduce spam?
+  #         captcha: false  
+  #   design:
+  #     columns: '1'
+
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle: ''
+  #     text:
+  #   design:
+  #     columns: '1'
+  #     background:
+  #       image: 
+  #         filename: contact.jpg
+  #         filters:
+  #           brightness: 1
+  #         parallax: false
+  #         position: center
+  #         size: cover
+  #         text_color_light: true
+  #     spacing:
+  #       padding: ['20px', '0', '20px', '0']
+  #     css_class: fullscreen
 ---
