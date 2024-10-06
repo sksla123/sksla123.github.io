@@ -25,15 +25,14 @@ sections:
   - block: markdown
     id: study
     content:
-      title: 📚 나의 공부 방향
+      title: 📚 My study direction
       subtitle: ''
       text: |-
-        나는 자연어 처리 및 정보 검색 분야에 많은 관심을 가지고 있다. 
+        I am very interested in the field of natural language processing and information retrieval.
         
 
 
-        현재는 BERT 등을 활용해 여러 문장을 비교하는 Task를 중심으로 이를 응용해 상품 검색에서 응용할 수 있는 방향도 살펴보고 있다.  
-        현재는 Sparse Retrieval, Dense Retrieval에 활용하는 여러 모델들을 응용 및 활용해보려 하고 있다.
+        Currently, I am focused on tasks that compare multiple sentences using models like BERT, and I am also exploring how to apply this to product search. I am looking into applying and utilizing various models for Sparse Retrieval and Dense Retrieval.
     design:
       columns: '1'
 
@@ -41,8 +40,8 @@ sections:
     content:
       title: My Goal
       slides:
-      - title: 개발자
-        content: 작은 코드로 큰 변화를 만들며, 기술로 세상을 혁신하는 개발자가 되겠습니다.
+      - title: Developer
+        content: I aim to become a developer who makes big changes with small code and innovates the world through technology.
         align: justify
         background:
           image:
@@ -51,8 +50,8 @@ sections:
               brightness: 0.7
           position: center
           color: '#666'
-      - title: 자연어 처리
-        content: 사람과 기계 사이의 언어의 경계를 허물어, 기계와의 소통을 자연스럽게 이어주는 NLP 전문가를 꿈꿉니다.
+      - title: Natural Language Process
+        content: I dream of becoming an NLP expert who breaks down the language barrier between humans and machines, facilitating natural communication with machines.
         align: justify
         background:
           image:
@@ -61,9 +60,8 @@ sections:
               brightness: 0.5
           position: center
           color: '#555'
-      - title: 정보 검색
-        content: 
-          방대한 데이터 속에서 가치를 찾아내는, 스마트한 정보 탐색의 선두주자가 되겠습니다.
+      - title: Information Retrieval
+        content: I aim to be a leader in smart information retrieval, uncovering value within vast amounts of data.
         align: justify
         background:
           image:
@@ -77,9 +75,8 @@ sections:
         #   icon_pack: fas
         #   text: Join Us
         #   url: ../contact/
-      - title: 언어 모델
-        content: 
-          인간의 언어적 사고를 재현하는 언어 모델 개발에 기여하고 싶습니다.
+      - title: Language Model
+        content: I want to contribute to the development of language models that replicate human linguistic thinking.
         align: justify
         background:
           image:
@@ -88,9 +85,8 @@ sections:
               brightness: 0.5
           position: center
           color: '#333'
-      - title: 기계 학습
-        content: 
-          끊임없는 학습을 통해 기계가 스스로 진화하도록 이끌고, 더 나은 미래를 위한 인공지능 모델을 만들고 싶습니다.
+      - title: Machine Learning
+        content: Through continuous learning, I want to guide machines to evolve on their own and create AI models for a better future.
         align: justify
         background:
           image:
