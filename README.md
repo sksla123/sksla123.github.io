@@ -3,6 +3,54 @@
 ## 개요
 Hugo-Blox의 Research Group Template을 기반으로 만들어진 정적 웹사이트입니다.
 
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/example.png)
+
+> **프로젝트:** 개인 포트폴리오 사이트
+> **기획 및 제작:** 박준용
+> **분류:** 개인 프로젝트
+> **제작 기간:** 2024.09 ~ 10.
+> **최종 배포일:** 2021.10.06.
+> **주요 기능:** 라이트/다크 모드, 언어 전환, 반응형 웹, Email 전송, open graph
+> **사용 기술:** Hugo, Bootstrap/v5, HTML/CSS/JS
+
+## 기능 살펴보기
+
+### 라이트/다크 모드 전환
+
+**라이트 모드**
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/light.png)
+
+**다크 모드**
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/dark.png)
+
+**전환 방법**
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/day_night_conv.png)
+우측 상단의 달 모양의 아이콘을 누르면 3개의 드랍 메뉴 중 하나를 선택할 수 있습니다.
+
+### 언어 전환
+
+> **지원하는 언어 목록:**
+> 한국어 (기본 언어)
+> English
+
+**한국어 모드**
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/light.png)
+
+**다크 모드**
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/eng.png)
+
+**전환 방법**
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/lang_conv.png)
+우측 상단의 지구본 모양의 아이콘을 누르면 2개의 드랍 메뉴(한국어, 영어) 중 하나를 선택할 수 있습니다.
+
+## 설치 및 배포
+
+**레포지토리 클론:**
+```bash
+git clone https://github.com/sksla123/sksla123.github.io.git
+```
+**레포지토리 복제:**
+지정된 workflow에 따라 깃허브에 push하게되면 자동으로 배포됩니다.
 
 
 
