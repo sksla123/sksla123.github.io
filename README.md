@@ -10,7 +10,7 @@ Hugo-Blox의 Research Group Template을 기반으로 만들어진 정적 웹사�
 > **분류:** 개인 프로젝트
 > **제작 기간:** 2024.09 ~ 10.
 > **최종 배포일:** 2021.10.06.
-> **주요 기능:** 라이트/다크 모드, 언어 전환, 반응형 웹, Email 전송, open graph
+> **주요 기능:** 라이트/다크 모드, 언어 전환, 반응형 웹, Email 발송, open graph
 > **사용 기술:** Hugo, Bootstrap/v5, HTML/CSS/JS
 
 ## 기능 살펴보기
@@ -43,6 +43,38 @@ Hugo-Blox의 Research Group Template을 기반으로 만들어진 정적 웹사�
 ![](https://github.com/sksla123/sksla123.github.io/blob/main/images/lang_conv.png)
 우측 상단의 지구본 모양의 아이콘을 누르면 2개의 드랍 메뉴(한국어, 영어) 중 하나를 선택할 수 있습니다.
 
+### 반응형 웹
+
+**PC website**
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/light.png)
+
+**mobile website(phone)**
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/mobile.jpg)
+
+**mobile website(tablet)**
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/tablet.png)
+
+### Email 발송
+**발송방법**
+**Contact 메뉴로 이동 -> 스크롤 하단의 message 버튼 클릭 -> 필드를 모두 채우고 보내기 클릭**
+
+**email 발송 기능 사이트**
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/email.png)
+
+### Open Graph
+**오픈 그래프(Open Graph)란?**
+인터넷 프로토콜의 한 종류로서 2010년에 페이스북이 발표했다.
+오픈 그래프의 목적은 웹페이지에 대한 정보를 담고 있는 메타데이터의 사용방식을 표준화하여
+페이스북 내에서의 링크 공유 시 해당 웹페이지에 대한 정보를 특정 형식의 미리보기 형태로 제공해주는 기능을 모든 웹페이지에서 가능하게끔 하는 것이었고, 이후 트위터와 링크드인에서 이를 차용하여 더 나은 UX를 제공하는 데에 활용하고 있다.
+
+**웹사이트 오픈 그래프 디버거**
+[오픈 그래프 디버거](https://developers.facebook.com/tools/debug/?q=https%3A%2F%2Fsksla123.github.io%2F)
+해당 사이트에 접속해보면 open graph 프로토콜이 정상적으로 동작하는지 확인할 수 있다.
+
+![](https://github.com/sksla123/sksla123.github.io/blob/main/images/open_graph_debugger.png)
+나의 사이트의 경우 미리보기 이미지까지 정상적으로 출력되는 모습이다
+
+
 ## 설치 및 배포
 
 **레포지토리 클론:**
@@ -52,54 +84,19 @@ git clone https://github.com/sksla123/sksla123.github.io.git
 **레포지토리 복제:**
 지정된 workflow에 따라 깃허브에 push하게되면 자동으로 배포됩니다.
 
+## 라이센스
+
+MIT License
+
+Copyright (c) 2020-present George Cushen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
-
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
-
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
-
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
-
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
-
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
-
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
-
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
-
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
-
-## We ask you, humbly, to support this open source movement
-
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
-
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
-
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
-
-## Demo credits
-
-Please replace the demo images with your own.
-
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+## Contact
+email: 'pjy010608@naver.com' or 'pjy010608@jbnu.ac.kr'
